@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## SFCloudMusicMediatorKit
 
 Copyright (c) 2020 shcamaker <alex.shen@wesoft.com>

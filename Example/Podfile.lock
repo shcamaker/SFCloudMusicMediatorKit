@@ -1,15 +1,28 @@
 PODS:
-  - SFCloudMusicMediatorKit (0.1.0)
+  - CTMediator (25)
+  - SFCloudMusicMediatorKit (0.1.0):
+    - CTMediator
+    - SFCloudMusicMediatorKit/DiscoverKitExtension (= 0.1.0)
+    - SFCloudMusicMediatorKit/LoginKitExtension (= 0.1.0)
+  - SFCloudMusicMediatorKit/DiscoverKitExtension (0.1.0):
+    - CTMediator
+  - SFCloudMusicMediatorKit/LoginKitExtension (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - SFCloudMusicMediatorKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
 
 EXTERNAL SOURCES:
   SFCloudMusicMediatorKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SFCloudMusicMediatorKit: 69a3b3ed35a9fa7245c55aa06fdd96a5a63e6cc4
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  SFCloudMusicMediatorKit: eee40863b8cbba9dff79434637d5d2401a7027e5
 
 PODFILE CHECKSUM: 2227e848150efe845f5a69adc1ab1145c9d001b8
 
