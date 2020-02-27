@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = CM22YAGS99;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = CM22YAGS99;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -270,12 +272,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SFCloudMusicMediatorKit_Example/Pods-SFCloudMusicMediatorKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFCloudMusicMediatorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCoordinator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -480,6 +486,7 @@
 			baseConfigurationReference = 4D4F77133333A6EDD3EED061 /* Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CM22YAGS99;
 				INFOPLIST_FILE = SFCloudMusicMediatorKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -495,6 +502,7 @@
 			baseConfigurationReference = B314664A741A995BED3EE9B0 /* Pods-SFCloudMusicMediatorKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CM22YAGS99;
 				INFOPLIST_FILE = SFCloudMusicMediatorKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -509,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF572EAEEF41AAF4DF44B55F /* Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = CM22YAGS99;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -531,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D2D90C83F3008D6175AD8E2 /* Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = CM22YAGS99;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

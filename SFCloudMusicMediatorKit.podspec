@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFCloudMusicMediatorKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'SFCloudMusicMediatorKit.'
 
 # This description is used to generate tags and improve search results.
@@ -31,15 +31,8 @@ A short description of SFCloudMusicMediatorKit.
   s.swift_version = '5.0'
   s.ios.deployment_target = '8.0'
 
-#  s.source_files = 'SFCloudMusicMediatorKit/Classes/**/*'
+  s.source_files = 'SFCloudMusicMediatorKit/Classes/**/*'
 
-s.subspec 'DiscoverKitExtension' do |d|
-    d.source_files = 'SFCloudMusicMediatorKit/Classes/DiscoverKitExtension/**/*'
-end
-
-s.subspec 'LoginKitExtension' do |l|
-     l.source_files = 'SFCloudMusicMediatorKit/Classes/LoginKitExtension/**/*'
-end
   
   # s.resource_bundles = {
   #   'SFCloudMusicMediatorKit' => ['SFCloudMusicMediatorKit/Assets/*.png']
@@ -48,4 +41,7 @@ end
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'CTMediator'
+   s.dependency 'XCoordinator'
+   s.dependency 'XCoordinator/RxSwift'
+   s.dependency 'RxSwift', '~> 5'
 end

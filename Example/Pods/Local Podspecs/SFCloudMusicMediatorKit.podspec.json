@@ -1,6 +1,6 @@
 {
   "name": "SFCloudMusicMediatorKit",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "SFCloudMusicMediatorKit.",
   "description": "A short description of SFCloudMusicMediatorKit.",
   "homepage": "https://github.com/shcamaker/SFCloudMusicMediatorKit",
@@ -13,26 +13,26 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicMediatorKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "swift_versions": "5.0",
   "platforms": {
     "ios": "8.0"
   },
+  "source_files": "SFCloudMusicMediatorKit/Classes/**/*",
   "dependencies": {
     "CTMediator": [
 
+    ],
+    "XCoordinator": [
+
+    ],
+    "XCoordinator/RxSwift": [
+
+    ],
+    "RxSwift": [
+      "~> 5"
     ]
   },
-  "subspecs": [
-    {
-      "name": "DiscoverKitExtension",
-      "source_files": "SFCloudMusicMediatorKit/Classes/DiscoverKitExtension/**/*"
-    },
-    {
-      "name": "LoginKitExtension",
-      "source_files": "SFCloudMusicMediatorKit/Classes/LoginKitExtension/**/*"
-    }
-  ],
   "swift_version": "5.0"
 }

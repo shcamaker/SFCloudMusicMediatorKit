@@ -1,13 +1,17 @@
 PODS:
   - CTMediator (25)
-  - SFCloudMusicMediatorKit (0.1.0):
+  - RxSwift (5.0.1)
+  - SFCloudMusicMediatorKit (0.1.3):
     - CTMediator
-    - SFCloudMusicMediatorKit/DiscoverKitExtension (= 0.1.0)
-    - SFCloudMusicMediatorKit/LoginKitExtension (= 0.1.0)
-  - SFCloudMusicMediatorKit/DiscoverKitExtension (0.1.0):
-    - CTMediator
-  - SFCloudMusicMediatorKit/LoginKitExtension (0.1.0):
-    - CTMediator
+    - RxSwift (~> 5)
+    - XCoordinator
+    - XCoordinator/RxSwift
+  - XCoordinator (2.0.7):
+    - XCoordinator/Core (= 2.0.7)
+  - XCoordinator/Core (2.0.7)
+  - XCoordinator/RxSwift (2.0.7):
+    - RxSwift (~> 5.0)
+    - XCoordinator/Core
 
 DEPENDENCIES:
   - SFCloudMusicMediatorKit (from `../`)
@@ -15,6 +19,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - CTMediator
+    - RxSwift
+    - XCoordinator
 
 EXTERNAL SOURCES:
   SFCloudMusicMediatorKit:
@@ -22,7 +28,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  SFCloudMusicMediatorKit: eee40863b8cbba9dff79434637d5d2401a7027e5
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SFCloudMusicMediatorKit: cd8ab8de111b33a5354c0eecd9db410c2984fe20
+  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
 
 PODFILE CHECKSUM: 2227e848150efe845f5a69adc1ab1145c9d001b8
 
