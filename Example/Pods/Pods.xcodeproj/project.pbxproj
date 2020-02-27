@@ -10,189 +10,193 @@
 		01670D708938741AB647D33821B489D2 /* Enumerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B15FC3C27756D667601BF94630E998 /* Enumerated.swift */; };
 		02912A00FC9AC0534AC160268C6EA5CC /* DefaultIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A4D2859DD65B69B23F4C3802E3FD99 /* DefaultIfEmpty.swift */; };
 		049CA7046095813FAB9CAB24E3E3C04F /* NopDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D8899774EC01A464B5DC0F4AEF83F7 /* NopDisposable.swift */; };
+		058640C719BDD92DFC3DDACAFF537768 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CAE33870A12F4223A4FBF743F7A1A /* UIKit.framework */; };
 		06A5235E9085439CC10A1F3BF43110D5 /* VirtualTimeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1ADC01632C9C2056CD9A117E7DDF5 /* VirtualTimeScheduler.swift */; };
-		0A02579A82B0954D2370FB04AE993B71 /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FEEF1A43CE283CBAF8EEF72F1AA97D /* StrongRouter.swift */; };
 		0A2BA8C6F0199E9D7749A9566202C758 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57990F34CEAB73D3EF912074A2BC1ED /* Sample.swift */; };
 		0BDC3CA3A6146B13A9888F7C07BC4722 /* BinaryDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AD7D45360EAE0649130619D22497CA /* BinaryDisposable.swift */; };
-		0C5AD4D1B0C98692D7D67DFF3F764A4F /* CTMediator+Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050436E87E3B6147E6F6D498B03824 /* CTMediator+Mine.swift */; };
 		0CE9B22B9CF1D6BAAB6818B655C3BAA8 /* AsyncLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C351A15F185282C80B27C1946C98FDC /* AsyncLock.swift */; };
 		0D42F06544FB8922A2A65009FAB3583F /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE811F2239A511ADE7D05E8C6284754 /* Rx.swift */; };
 		0E095B3BB4591D548D35430EDE48C4B6 /* SkipUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD7D8FF8FEC58C6E2BCF24A8B042C69 /* SkipUntil.swift */; };
 		0FCFBD94D256BDB1E065EF3DCDCA5393 /* RxMutableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A4A9EDF929AC8E1940E0DA29E3994 /* RxMutableBox.swift */; };
-		10307B789688EE44688BA5D76FBA0C17 /* TabBarAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853D740ACCDD24C1C581011F09AACA2 /* TabBarAnimationDelegate.swift */; };
-		10E18681A56F35B6837BF547866E4FDA /* AnyTransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805F038F50A519D3C47F92003B2DB9F6 /* AnyTransitionPerformer.swift */; };
+		10CD8E20E1E7CE20E3188DC8C5D0B4CD /* WeakErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF167E02FEE5CB9BF628A4E497D00E8 /* WeakErased.swift */; };
 		10E96C8BA5EEECE3378CA40D8B01411A /* SkipWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F1D6CDB50E430235CF158C8E1A287 /* SkipWhile.swift */; };
 		114F5668F8B2C7A328966299B99CE5BE /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE657CD56AEF79788C5727088E7CE46 /* Timeout.swift */; };
 		119A325E155541452F432B23FECA24E0 /* HistoricalScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56837758048735AD654CB00816C8F9E /* HistoricalScheduler.swift */; };
-		124B305AD19455C50407BA851FEFE428 /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4EA463240624AC3BB47FD87690638 /* NavigationTransition.swift */; };
-		14831BFA291B848D4C87EC82F4D6A4C4 /* BasicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA202ED816D24E0F7FB6D25B0314D0 /* BasicCoordinator.swift */; };
-		1561911502E643C0D0D302B68515E755 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076CB4A4514D01EE26F15095B64FBE3B /* Container.swift */; };
+		11B53357C0E779C945ECFC962147008B /* CTMediator+CloudVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C92D1D880000696B5BD5BA6007C6BC /* CTMediator+CloudVillage.swift */; };
+		139D13F1C739E4545F6759B61590F030 /* DeepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03279DC151DC3BD7D81F8E97BE8E5F6 /* DeepLinking.swift */; };
+		156F3A7011DCE3E31B73F639DAF244B7 /* SFAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988A73B7193854775C35EC6E018EC80 /* SFAccountCoordinator.swift */; };
 		170A43301BBF4101108638668FF34DEE /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76853BF2A4BD7C73236641D4A2D9AA3C /* Errors.swift */; };
-		17A49D86E210368B7034DC6753AD3BE9 /* CTMediator+CloudVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA0B53A91332A2B5B91DDBB6B5C7F77 /* CTMediator+CloudVillage.swift */; };
-		18B1C7DC80E421A95D0AE0FF2A08A94B /* Transition+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E5113B51C6B2D26A607242796177 /* Transition+Init.swift */; };
 		18F1C4F429EA4EE47863C59F183F6758 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC67ABB796C1325FBA5175549BF5102 /* Scan.swift */; };
-		1C10929257C06BC8B09B99A2DFA3FD73 /* SFCloudMusicMediatorKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF6919B7AF595986544BB499AC36BC4 /* SFCloudMusicMediatorKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A1A67EE1187F85F30088A2DD4B8760A /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9023650896A6B17B1371184F53C7F2 /* TabBarCoordinator.swift */; };
+		1A51E82353384879664540FCA2374AF0 /* SFMineCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEBBA679FEC22FBFD43755A24854E7F /* SFMineCoordinator.swift */; };
+		1B06C2A2749962803BAD5453B7F5C225 /* Router+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6292053E7445874BB653D311AB5D0F /* Router+Rx.swift */; };
+		1C1A00FB705F305DF054F0DDF8F61CF3 /* PageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A20750A9AC66FE62F5558A6125B74E /* PageCoordinator.swift */; };
 		1C1C703AA1FC5E7AF0DEEE0515046B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
 		1C2ABE3286100015AB5AD375F6C846AF /* ConnectableObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB3F6A37A25E1752197D7897746213 /* ConnectableObservableType.swift */; };
 		1C5FCB11BDA6B695859066A82E0A3962 /* LockOwnerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11940982B0085038E516254DF2834824 /* LockOwnerType.swift */; };
 		1EB069D5C9FB689AB1CCB587B3890DF0 /* RxSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD05CE01EEEE3B509EC262722FDE2B7 /* RxSwift-dummy.m */; };
+		1ED48EF3AC6D6339E941C8D46430A90B /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769038D9670CAD979520982C08A28DE0 /* ViewCoordinator.swift */; };
 		2066B802CD5EE10B7EB31F45087771E7 /* AnonymousDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB2BA9E7A30E627CD3C5ECF7ABC4C17 /* AnonymousDisposable.swift */; };
 		2146EBC9AD0F764FB5A08C8B1F6BB604 /* GroupBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010F63444D09CDA295EA327EAB3EDBC2 /* GroupBy.swift */; };
-		22C9180F72AE7599E0610CD3479819A1 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D7F5DE7810D9712B6098C0AE7553F2 /* CTMediator.framework */; };
+		21CA47C6019E91BADDA0E78ED2E28070 /* UnownedErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403557A740DDAD3A54CCC16BD384A655 /* UnownedErased.swift */; };
+		226DC2A6023CED0D557A486C50FE5A4E /* XCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5287F6F7CE5BAF74EA9E90F025FDE2 /* XCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22E362389674EB5F349D28163B8BA1CF /* Never.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57B5825A00F4F7C492F6E3EEB1B3FF6 /* Never.swift */; };
 		24F634748E68CD7B8226EBBB45E3F30C /* CombineLatest+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F521E523024ED2C9D284B032E58B92 /* CombineLatest+arity.swift */; };
-		2530518682F0267F0CB0A38B92DEDEC1 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6317A2A363DB277AC8B660123C6BD /* BaseCoordinator.swift */; };
 		25796C6EBD25AB379B015ADF82EE1EE5 /* Date+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3266D634C36BC076B39441EF2ABDB227 /* Date+Dispatch.swift */; };
 		2597376F5FFD083F6353D503E729A90C /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A13E2F17A50784F9790909A751829 /* SwiftSupport.swift */; };
+		26EDE4710F9169A6A0C85CA82B8B9225 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBFB2F7E80096123AC0A299AACBCEF /* Presentable.swift */; };
 		2714A15AD83759B3639EA631D596D22A /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626726E4E9D1BD7793EB15BBBCAB79F0 /* SingleAsync.swift */; };
-		2735A010CA22D27C351ABBED908B6A38 /* WeakErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A06093108A267DC4A49093B8E1E4368 /* WeakErased+Router.swift */; };
 		293CD8EEEEE5EA888677C26AD25CC912 /* Pods-SFCloudMusicMediatorKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4F6C08BD7F67F9E3B1AD6EC26D42B /* Pods-SFCloudMusicMediatorKit_Example-dummy.m */; };
+		2A0312531948BB96BAAFC6195104FFF1 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076CB4A4514D01EE26F15095B64FBE3B /* Container.swift */; };
 		2A4823904796E1CA89E86E0DDD180BAE /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F5370E191CD81F538D3757590FF88 /* Single.swift */; };
-		2BB849FB9E2EBD0C25E3B79E39523D15 /* TransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08FCF3759884C5528C30A53C25D197 /* TransitionPerformer.swift */; };
+		2A6213091E3286BADB01816E7038AACD /* AnyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C1ACEBA3E7604BEC7A8E7AEB772ED /* AnyCoordinator.swift */; };
+		2C5978B690681D02EF0DE9FB0F5B7016 /* RedirectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455F82055CC5E18447237EE366AA93B /* RedirectionRouter.swift */; };
 		2CE4C4AED40EA9755848498A687FEB16 /* Maybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77440E46FBFF64670BC0F97F03931A6B /* Maybe.swift */; };
-		2F8D93CA9B37EB78BBF147DAC7EFF843 /* CoordinatorPreviewingDelegateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6ECBE15FD30117AF51490A84DF89B1 /* CoordinatorPreviewingDelegateObject.swift */; };
+		2DFF9668F1288248FD223CC063776B80 /* CTMediator+Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5F7AA3D1858F318330C635C0541596 /* CTMediator+Discover.swift */; };
+		2E3B2E8026337848AF2F8AE161483BB4 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19105D74EEDEB8410352ED28E53C9AF /* Animation.swift */; };
 		30ADE54AB0A7977B017F30B52209EECC /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F143CCB146884169DB33D6361CD8FED1 /* Disposable.swift */; };
-		339A5248A94069FCDF3583058A2FBAE1 /* UINavigationController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B813510B861282B4E05BD8A2B8407 /* UINavigationController+Transition.swift */; };
+		31DD04F4B9871BFDF7387915B22366DC /* StaticTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C57DD792EDCA25008412FC22064CE9 /* StaticTransitionAnimation.swift */; };
 		350E28A9E921E9F9E5B3C2E77CB3BFF2 /* VirtualTimeConverterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC85D663E86557E6D98DC03FA43E1D /* VirtualTimeConverterType.swift */; };
 		35C8E014E23B79DD2E81F9A3CB06CBF8 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C6E3B50E895EEDB8FDFF19A0D31880 /* BehaviorSubject.swift */; };
+		35CDF4CA70AF8F2D568BD6AACF4E9377 /* SplitTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F9AE4C586EC52F1EBF9DC2E757A25 /* SplitTransition.swift */; };
 		36ED2437C10C08EDEC51764D2AD5E002 /* String+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE5E84142D423126351649E2DAD0380 /* String+Rx.swift */; };
-		373A393AABD8F69ADAB8C1DBFBCDB398 /* ViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769038D9670CAD979520982C08A28DE0 /* ViewCoordinator.swift */; };
-		37AFB5E589E93302D61A95516BA7E3CA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF0E130B5961E03ADA1DE28670034F /* Route.swift */; };
 		3A385C67DFF818E91D54F33FBD6FB7DE /* DisposeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18DDD9A15F6179B0A2DBD8883DDEEE4 /* DisposeBase.swift */; };
 		3AD25AD9C8728A9A86FFE6EC25FA9BFE /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB54FA3702DBF7114C8B952275276CB /* Debounce.swift */; };
 		3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
-		3CD4CE53D3F159BE9D2F1FE2DE834B06 /* UnownedErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403557A740DDAD3A54CCC16BD384A655 /* UnownedErased.swift */; };
 		3D3010B87410A0F556596DF882B103F0 /* RetryWhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4F3C68D9E15EB4C98698F7290EEF5D /* RetryWhen.swift */; };
-		3DB0950D3634E4168A25DFF534F8EB11 /* XCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8432B9B6237322202BA8D792F471EE3E /* XCoordinator.framework */; };
 		3DB6D1DE2CF5FA22FE46BC1E6499E37A /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE90BC55EC56F2C4362543C0FAC41C /* Lock.swift */; };
 		3DBE3AEDC40B41E826C365D8CA247217 /* PrimitiveSequence+Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB2E187E733734A81C06E98DF7C8A29 /* PrimitiveSequence+Zip+arity.swift */; };
 		3E256795F6BB882B6664D74AFA4F5FDF /* Dematerialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF4B9D6FD0E793D10CF82148E0F8D0 /* Dematerialize.swift */; };
-		3E30C71AEF3A3C0C4F46FE1F7D084D6D /* SFAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DF3DADDC0CF522A016D0E49578861 /* SFAppCoordinator.swift */; };
-		3F6525C1C8011CAF61C349BB0D62A828 /* CTMediator+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66851B1F0416F14F23422F935E2CAA /* CTMediator+Login.swift */; };
+		3E715B155755D7BE4DD3EAC494CD98A2 /* UITabBarController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EDED5904A33C768601D441562EC3A1 /* UITabBarController+Transition.swift */; };
+		3FE5F3A09027020D3FBBA5D4BD526AC3 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E6317A2A363DB277AC8B660123C6BD /* BaseCoordinator.swift */; };
 		4018D04EFFFB41BAFDAF771A46D17190 /* AddRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905C7C933F6A4FB1D5B2990526CB3A4 /* AddRef.swift */; };
 		4030F2E41D3B55189558F48CDE8DECFF /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00534312C3957B1ACAFEC035CD88A3F1 /* ImmediateSchedulerType.swift */; };
-		40A5C015F6A21229D596DE3F62AFBB76 /* SFVideoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D60F20EA44AAFB1E5AE2619F5A6107 /* SFVideoCoordinator.swift */; };
 		41479B8E61A8D1F6D9BD7DDDE0A3D3FF /* BooleanDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331706DB09EB668B5CEFEAD822EF5C8C /* BooleanDisposable.swift */; };
-		42E9AA976895E420C1914B854B240B7E /* UITabBarController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EDED5904A33C768601D441562EC3A1 /* UITabBarController+Transition.swift */; };
+		41B97C88569295CE9EAB239B1AEDA3DE /* BasicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA202ED816D24E0F7FB6D25B0314D0 /* BasicCoordinator.swift */; };
 		43764C8719E0B6C43333BFE14605C54A /* HistoricalSchedulerTimeConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BB4D65D82D7A2F8E83F51788A94F /* HistoricalSchedulerTimeConverter.swift */; };
 		43FBA3428C3C5DD96158EB605E38DC11 /* InvocableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75847708A3617025FA34ACB686F43C8 /* InvocableType.swift */; };
-		45712121671732B9F260E235E40724E9 /* DeepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03279DC151DC3BD7D81F8E97BE8E5F6 /* DeepLinking.swift */; };
-		472B7E164D8585828A6A531D611753FC /* SFCloudMusicMediatorKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E39F7D46AD15021807915845B0A9D5D8 /* SFCloudMusicMediatorKit-dummy.m */; };
+		46C12CFCDA87AA5B32FFD596523B5267 /* StrongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FEEF1A43CE283CBAF8EEF72F1AA97D /* StrongRouter.swift */; };
 		47976AF80B133A746005AABFBC753233 /* Pods-SFCloudMusicMediatorKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A156574E100166B1A90986288B78084 /* Pods-SFCloudMusicMediatorKit_Tests-dummy.m */; };
 		48F98DADB3283A18D18095778AAF4334 /* Materialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1289E6D3EB4D4CD4D03536DF587DA2 /* Materialize.swift */; };
 		498A81CFDAA604E2A6C602BB6C00575C /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0E4DC264EF9004F9BBE34C3BD2BCD /* InfiniteSequence.swift */; };
 		4AC39B2213528DD3BDA4C243B14E37ED /* RefCountDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA78624BE313EF5022559097ADBED9 /* RefCountDisposable.swift */; };
 		4BE5939AF4C323CB7AFF8E4186449499 /* ObservableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3F2F99DB0313662DD59EDF831E7B07 /* ObservableType.swift */; };
 		4D8B3BE5F99171A4D1205B606B69F79E /* CurrentThreadScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D76BE474FB55572741E91055E695F59 /* CurrentThreadScheduler.swift */; };
+		4E97190718A798A2B1DD07CAFFBE2A1D /* SFMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B6C7F5DD63319C092BC54DA5D09E5 /* SFMediator.swift */; };
 		4EAEADDF7427C16CB82699DF48965A0F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8830C430005732E887457F89656CF /* Event.swift */; };
 		4F53CECC2B262774607D98C45C5F7CE8 /* Completable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB33CDCB3361BA9A484DD02C8B48A8A9 /* Completable.swift */; };
 		4FE2DB9FA1369193B5D4B0613C9AE5DB /* Using.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41968D3C8C84EB5641969AA64FB7EB00 /* Using.swift */; };
 		51F56A370E86EA66D4533D91CE2E088C /* OperationQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F2BF8F0934E60A7563D8BE95AD3CB8 /* OperationQueueScheduler.swift */; };
 		52959B2DBDABF67EE84B668630D99958 /* Catch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C6551531185B1E54401364022414C9 /* Catch.swift */; };
 		5467DA8A0A477B4414120B9AD955FAF0 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8634EE4E2053417E7BEA7F12CFBE6 /* Window.swift */; };
+		549AF3285644D3B497561F3F90DCF9C4 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405F15A44A00965B6C213829142EF44 /* Transition.swift */; };
+		557460A6DB43D40295565D5C4E3D7AAB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12A904369D453379233EBA99144817D /* RxSwift.framework */; };
 		578289037D6D6B75AE26BCD55B6A64DD /* ObserveOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE63B662EEC8C77134C9EB79B6A5C0B /* ObserveOn.swift */; };
 		5A351E279F8F63E0D8BFF14BC15B8144 /* DispatchQueueConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EEFEAD30B0F3880A7914458561EAF5 /* DispatchQueueConfiguration.swift */; };
 		5A4E6C8DC64E05677CBCD58BB2877EE8 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BDA6D3CA024F081E6F4E104CA9880 /* Reduce.swift */; };
 		5B121DC2FDA622AC0AD34621B9628B43 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D67F4082B44FEDF1126BF7B544FA6A5 /* DispatchQueue+Extensions.swift */; };
+		5B6299A3F6387D5D6BAFFAF9D33C203D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
 		5B656B6DEFBB0EF2BECA60932689A8B7 /* RxSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCAB563ACB79FEEED8923F2A7B5236A1 /* RxSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BA9BA9A10A691C9B5A598EB62485DB4 /* PageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A20750A9AC66FE62F5558A6125B74E /* PageCoordinator.swift */; };
 		5BBAF6797B81F267510263D80B8197BF /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3FAE76AAC33DAD3FE35CBF8310DE88 /* Range.swift */; };
 		5BE1AF801B6F3E2AF365B69F066F268E /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861A0F0604C1AD47C9B37CB1242248D /* Multicast.swift */; };
 		5DBA1F21AAE770A20D3C8D8DD769013C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8AEA80A2D9FDF89D7AF8D4C447E99B /* Filter.swift */; };
 		5DC99ECACE479596E644115F745B38E6 /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D04E4D2D8B8DE362ECC1F927855CF3 /* CompactMap.swift */; };
 		5E290FC57A79D804C79FE2965828678F /* TailRecursiveSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795E7F3F7AC6931B260CC10C686720A8 /* TailRecursiveSink.swift */; };
 		5E6945651475F73AB34C1AEBE937013C /* CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B08876E90D21796F2E901034A57F62 /* CombineLatest.swift */; };
-		5EE01E8C9F5E2C4712EC6415481EDB4D /* GestureRecognizerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0E230D49D3545AF047C013590DE60 /* GestureRecognizerTarget.swift */; };
 		60052D900CCEAEA66B2010EAC44BAA07 /* Deferred.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7974F46A2EAD06C0B2F77B43E72D9C /* Deferred.swift */; };
-		60469EA62EED759F7B89E60EE7A6B092 /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3653C79A09C85C72A6A136D2B248A3 /* UIViewController+Transition.swift */; };
-		6266194BB4EA22B558D6E21AF11C9842 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051512848803E5D58C7A90438C26AA4 /* NavigationCoordinator.swift */; };
+		601CE57D3855C7C633D41B9B0DA1E8D5 /* InteractiveTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2BA5782ADDF4D79043AF2FD710293 /* InteractiveTransitionAnimation.swift */; };
+		615CCA47D2099D046C97FF516A598ED0 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3896A3D181D6B8E725CA895275E3F467 /* Coordinator.swift */; };
 		62AC2EE31140FD90DF4CB9E84EB1D69E /* SynchronizedUnsubscribeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A1A404A5ECE5AB4732AEEEC9047C7 /* SynchronizedUnsubscribeType.swift */; };
 		64F73958A768D74A7C45DDEFCE480654 /* ElementAt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24A4E3D189AAABD49A9644449B80028 /* ElementAt.swift */; };
 		65FD5D2FF0833408E12236FCB0E42C24 /* Disposables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E4A7254A6B2B05C5E3FA908570418A /* Disposables.swift */; };
-		6600E46B67DF5BA8345A3A0FFDB91216 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12A904369D453379233EBA99144817D /* RxSwift.framework */; };
 		679EF405A97457627D47CE033C035B5C /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EE5EAD693DBE4D21AEC3A6B6D7E0BE /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67B1E0AD31FD7C44E31E241D6D97BB15 /* ToArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200DDE2FA9556426A78A77D05D1CA243 /* ToArray.swift */; };
-		6806F521E8BD42D452B989FB10D14553 /* SplitTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F9AE4C586EC52F1EBF9DC2E757A25 /* SplitTransition.swift */; };
 		685B428DA7903CE09A77661071568C61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CAE33870A12F4223A4FBF743F7A1A /* UIKit.framework */; };
 		68E40ACE329722C65A6A8D590A49CDB6 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D24EDAECFD16CFE8D580524E6C99BA9 /* PublishSubject.swift */; };
 		695C2D0242295C6450A7F6330471B7FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
 		69EFD659067C53680C77D8B57F1D1965 /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5061C4A530FC0AC1B028B3DFBC04E21 /* Sink.swift */; };
 		6A97C8A005B895EE79D91E8BFA52CB32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
 		6A9AAA0728FF5F65038B5F7488BFF5BC /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72102CE43975806A689C7CB475C39F7 /* RecursiveLock.swift */; };
+		6AC02B0AD9A7E7EF4C8D3DA83C84E9B1 /* CoordinatorPreviewingDelegateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6ECBE15FD30117AF51490A84DF89B1 /* CoordinatorPreviewingDelegateObject.swift */; };
+		6B2B8B40E9947A22D39C28131C55ED79 /* XCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2561B1CCB4399DFE333E09EE61A907E8 /* XCoordinator-dummy.m */; };
 		6B3B23BA169A57B7416235BB113808F6 /* RecursiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD01EE84402F76123C918E8CDFA6EB4 /* RecursiveScheduler.swift */; };
 		6C5A4DBCACAFC5842E6C0C0BB405CF8D /* Amb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BF6930BACB4BB3847C4873B50EB56 /* Amb.swift */; };
 		6CBC14F3CC53081CBD6F8FED6B7B7874 /* Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3901883500857A4B6F9286729F6A00C2 /* Generate.swift */; };
 		6D3C1A1EEF289BEF78464D964CAD416E /* ObservableConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED759A68CDD6635FE6FEAAEA2CCA0A9 /* ObservableConvertibleType.swift */; };
-		6E2D17B9A1A7961D6E6053EBF8D1E896 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF94565A41DB0E5EFE810110539884 /* PageTransition.swift */; };
-		704E34CA36709ED5B1FF321D166B7876 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9023650896A6B17B1371184F53C7F2 /* TabBarCoordinator.swift */; };
+		6D9DA0772DB41EC82EF31B025601E8F9 /* TransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE08FCF3759884C5528C30A53C25D197 /* TransitionPerformer.swift */; };
+		6EC360625CCFC997F8672150D0568428 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12A904369D453379233EBA99144817D /* RxSwift.framework */; };
+		6F1CA07E426F053D8551792D4DC392A3 /* AnyTransitionPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805F038F50A519D3C47F92003B2DB9F6 /* AnyTransitionPerformer.swift */; };
+		6F5048FC233EA216DAE69578ED4BCE92 /* TabBarAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7853D740ACCDD24C1C581011F09AACA2 /* TabBarAnimationDelegate.swift */; };
+		6FFA0668C29356DB9012351BB0A34032 /* CTMediator+Mine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560612F1DBB8EC78AB84E91275CB45E /* CTMediator+Mine.swift */; };
+		715CA04951BE816634320BE63BC88DBA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF0E130B5961E03ADA1DE28670034F /* Route.swift */; };
 		734C83E2143BA00000E8FADA79B4754D /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C7860F2B87C2613421DC0C919662A7 /* Zip.swift */; };
-		736239B0DA5E11F6813F052C68FE335B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19105D74EEDEB8410352ED28E53C9AF /* Animation.swift */; };
-		751E668C7FA50CBCF0666A239C6680F2 /* SFAccountCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0F1259A70537C40D0FF516EBEB39EA /* SFAccountCoordinator.swift */; };
+		75248B643B76E65AF87182475B49005D /* TabBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B380BAF7EE1694A52D031E481B03D47 /* TabBarTransition.swift */; };
 		75775C05191E91911C191F0986760184 /* Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46D5171B4746403342B0F80EC68638 /* Take.swift */; };
 		7696B97F3023FE444D94C963CBD702AE /* SubscriptionDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C2224688F8AC774541BA245CE2ECD /* SubscriptionDisposable.swift */; };
-		77238452D987D944DBA9D0558F28889B /* UIPageViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F45F8C14E13DA525E73B8AFB5B49BD8 /* UIPageViewController+Transition.swift */; };
-		778859C48A83FA7AC4967DD5DBB3D2AF /* CTMediator+Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80075C35CF998A919B2E1A22F57C8C /* CTMediator+Discover.swift */; };
 		786C12158AB5FD4716E8BF8296B65FA7 /* SubjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B95A5DBBED24DB5E0E5A94672FDDF43 /* SubjectType.swift */; };
+		79C4CA8C2BE48D8CFFDC58ACA29A00E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
 		7A47DBE54E38761F7F2884DE0B660712 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE1C263489BF685D6B2A6B807D6FD7 /* CTMediator.m */; };
+		7C0581F17094BD7E3144D9C72E5A2E11 /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E4EA463240624AC3BB47FD87690638 /* NavigationTransition.swift */; };
 		7C689B24B97556FCD447B4D32C40D0ED /* CombineLatest+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5343B54B0FC0816F1175EF285D5179C /* CombineLatest+Collection.swift */; };
 		7D28D11F4FAA31632DB2CF1BC29AD441 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561876D386972CB4B41BC4A00E4CFC0 /* Bag.swift */; };
+		7D2A440CD7B41447B245A9685B1A9898 /* TransitionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22609F27C0C72B10C64CDEDB1B305D /* TransitionOptions.swift */; };
 		7DEAA92B9F585386A82AACD633F00CDD /* SubscribeOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF05F43A8DC1EFB0C6193A886768059 /* SubscribeOn.swift */; };
-		7E536EB6996DCB2A57B845BDDBB68A1C /* RedirectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4455F82055CC5E18447237EE366AA93B /* RedirectionRouter.swift */; };
 		7EDD2A215B6E80D4E2EBE92F99F6410F /* ScheduledDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8E20A4A49FDD7E5FB9FF3536988DC6 /* ScheduledDisposable.swift */; };
+		801DE7057BF7154FF216FD73F80094BE /* CTMediator+Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488074D7014CCA80C7099F2DED66EFD /* CTMediator+Video.swift */; };
 		80FCBBEADEB4B6CB604AEDCA5C9BA34A /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CB954842A150674ACE75D792879A76 /* MainScheduler.swift */; };
 		816C318B7A7D7C24E6017545558780FF /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57B499E1319981ED8BA0402F56D83B /* AnyObserver.swift */; };
-		81B208DA8D709C09ED11EFF0E2805EA9 /* TabBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B380BAF7EE1694A52D031E481B03D47 /* TabBarTransition.swift */; };
-		81FB736AAC6C3B8482443C35F1303622 /* UIView+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBC24456538E2A9DF3DC6D4E65DD6B /* UIView+Store.swift */; };
 		829E7231D40238B884E2B9D8151ACCDB /* SwitchIfEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CB1E930556BB5D3A3C44AE9D10B65A /* SwitchIfEmpty.swift */; };
+		82A0A6CDF23722ACCC128BFCA70F8813 /* CTMediator+Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67729EF8B9D3E7CBA0F49852B557E150 /* CTMediator+Account.swift */; };
 		837EBAA86949F7E6998F2E74ECE3F424 /* Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8966D07D87CE958AA5B50FE95F35DEAB /* Skip.swift */; };
-		8462BC81E03FBE606D56CEFD5E23E26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
-		8ADDCA270D08A157FD40BF04FB1F8E3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */; };
-		8DB31396A95E613CA5421477E54E21F0 /* SFMineCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E82E56AECB75FA83174D8215F2B203 /* SFMineCoordinator.swift */; };
+		86345BDA67AC3D1FF2B414B988DD8F91 /* UnownedErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724A70C55CDEF13DCA6508F467C1C44 /* UnownedErased+Router.swift */; };
+		8DB3E3F9E0D3051CB389AE28083E00D5 /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3653C79A09C85C72A6A136D2B248A3 /* UIViewController+Transition.swift */; };
 		8E7E2AF1C299262FEA6D473BE01BD935 /* ScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DA9279E77FFDD73F6C650949C1D61 /* ScheduledItem.swift */; };
-		8FA28906ECB84F19407DC3FE5BE061E8 /* InterruptibleTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809A496C8B3C5428641D0855641E744 /* InterruptibleTransitionAnimation.swift */; };
 		901C1FFA2B8F7E5AA667D995163682F0 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAF7358DF60FBCE7A0CE5A088DF606 /* ObserverBase.swift */; };
 		919B2EF09439DC404F918854676773FE /* Zip+arity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463641734A1EB9B9036EE0BA3311F7B /* Zip+arity.swift */; };
-		92170FD98A214072CFCAD992ACC3C8C8 /* SFDiscoverCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D6C72AE5CD8C0DDDD72A6E8FEFB0F /* SFDiscoverCoordinator.swift */; };
 		92D0B5DCE541366E791E4E2D12915751 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE730EB593BCC47ACEA010479D603B0 /* Reactive.swift */; };
+		933D44A978E2DF1B630E1D3B8E562ED0 /* PageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF94565A41DB0E5EFE810110539884 /* PageTransition.swift */; };
+		9390A42B62CD63AD4EC8842A0E3FE2F0 /* TransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748EB0CAA76627101D04A7FD82758B65 /* TransitionProtocol.swift */; };
 		93E81EB50E68C3C420019ACE8A4A2197 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80BDB8BAC411279C2D0BD61DEDAF48 /* Deprecated.swift */; };
 		9459D3C756860382C479FADB0A0B7A7F /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BEDAF3421570E2138A3F9537F63F55 /* Throttle.swift */; };
 		953762806E37C8CDF25BD38C740FF722 /* ObserverType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F369404387EED8D16ACDB8131A862 /* ObserverType.swift */; };
 		95392ACCB07214CE44543153D49EF2D7 /* SchedulerServices+Emulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29EF97B8EEFB07EAC327456DCD6EB59 /* SchedulerServices+Emulation.swift */; };
 		96D58161696810A52CCD104B3C25496C /* TakeLast.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC28B7FEB3696AACA2847555BF3B218 /* TakeLast.swift */; };
 		98007C0C6060C697C9193EFB39A8E927 /* Do.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949A18A1235490BA650F119966BD2E64 /* Do.swift */; };
-		99652658354FC242105E25D28F01D780 /* UnownedErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9724A70C55CDEF13DCA6508F467C1C44 /* UnownedErased+Router.swift */; };
+		98B82C033D2EA038C0C40A722BE9C2DD /* SplitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B22CE10A728EFD4706BC9ED17095D /* SplitCoordinator.swift */; };
+		98F15E3FE720B3EC06ABB833EFF1D560 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463E5BCE6F7972C7622C9BAA35FC374 /* Router.swift */; };
+		9935E3C785927BCBDC423EEC2AD3039F /* NavigationAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21422508BE08C6E7909F403D87E9FDA /* NavigationAnimationDelegate.swift */; };
 		9A8362B931B67A195EEF99D1D5787C95 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326CE30DEDBC8668EBDA88AAD3AA82B6 /* AtomicInt.swift */; };
 		9ADF15C6FA880CA3AEC4D7B14BC0EB7F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05706A76B94EEBEF28A5A3C198F22B /* Map.swift */; };
-		9C361773649C401C950B2C05825EC001 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDBFB2F7E80096123AC0A299AACBCEF /* Presentable.swift */; };
 		9C8BF8D864399F4CE1AA7511B05F5E53 /* Producer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5078F2C3BB02F262754B245C5E4015B /* Producer.swift */; };
 		9CEAF2A6B8551ECED2EA3897DAD37D61 /* AsMaybe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D1A61CE633CBF7D6571C1A4449D81 /* AsMaybe.swift */; };
+		9D1B3223EF511C820085220AF79B9BDB /* InterruptibleTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809A496C8B3C5428641D0855641E744 /* InterruptibleTransitionAnimation.swift */; };
 		9F2F4F0D0F959C2E06818775F0CDF0D1 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A4109B65DC4A1DD29B290F885D271 /* Observable.swift */; };
+		A1450D8F8CEA04646832EF706A3400FC /* SFCloudVillageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7805C4BBE57424EAAF9D3961F2C263 /* SFCloudVillageCoordinator.swift */; };
+		A1D7B6B1FBC67CA85943533291B0E1DE /* UIPageViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F45F8C14E13DA525E73B8AFB5B49BD8 /* UIPageViewController+Transition.swift */; };
+		A27C551A1F42493A80762194341205DE /* SFCloudMusicMediatorKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C935A934FA530020ED168D1D0574BE2 /* SFCloudMusicMediatorKit-dummy.m */; };
 		A34F91EC384833CC0A348278A208992E /* CompositeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A560AE49F0C6775A9CACAA21B55F2A7 /* CompositeDisposable.swift */; };
+		A4E82137F895113736084F5181066344 /* SFAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47CD89C3965244E83C61C754F39EBB /* SFAppCoordinator.swift */; };
 		A5176420651EB50AD675EF9F62E0016A /* SynchronizedOnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3F7751DEE6F7468BD74596BEB9AFF2 /* SynchronizedOnType.swift */; };
-		A643657EAABE0DB93962165D3DC484E2 /* CTMediator+Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8C46A12B5DCFD9AF6F446D1845AE03 /* CTMediator+Video.swift */; };
 		A70A1B109F6E624265FA027F766B0232 /* Zip+Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF1AE8ECE9C8563018FDEF40F9B800 /* Zip+Collection.swift */; };
 		A7655A896348660BB60A8F46DC8B8CF9 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD0FB5BAFCF0999DE233630FAF013E /* ObservableType+Extensions.swift */; };
 		A9ADF31E6D9B024261F99D9787EB1921 /* ScheduledItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF588048A6B6C07AE34C5940F906E6F /* ScheduledItemType.swift */; };
 		AAF0DCFF1D57D2ADF8ADD5424CA5A86C /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94025A969484D989417CA430662FC31 /* DisposeBag.swift */; };
+		AB31905179A797733CBA26ECE3792E2D /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4F787CFA8083C940ED35D8934B237 /* TransitionAnimation.swift */; };
 		ABD7FB4FA4E20A445F2528C91486D9C3 /* Concat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65CE2C46833CCE35F709055F77DEA8 /* Concat.swift */; };
-		AD29BE73E3894E94F556430EADBB76F3 /* StaticTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C57DD792EDCA25008412FC22064CE9 /* StaticTransitionAnimation.swift */; };
+		AC88A8D5342E5BCF034E48656E1B6AC0 /* WeakErased+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A06093108A267DC4A49093B8E1E4368 /* WeakErased+Router.swift */; };
 		ADB2CF20567AF529197A1091FA531B1E /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C8172EE04FEE12B2BC776D23BA044D /* Switch.swift */; };
-		AE20053B0B08661566AA84634504E27E /* WeakErased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF167E02FEE5CB9BF628A4E497D00E8 /* WeakErased.swift */; };
 		B08325501BE96BAE7DEA0EDB4C3E4478 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A52F690162D6E86AE93303A073CCDA /* Error.swift */; };
-		B25674FF40A13E5CB86F90B37CA98AE9 /* AnyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C1ACEBA3E7604BEC7A8E7AEB772ED /* AnyCoordinator.swift */; };
+		B0F347570024E864684CAA4B07A6589D /* CTMediator+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8D2B5E3341871C7FDD38B342A39314 /* CTMediator+Login.swift */; };
 		B333454B3020CEDEC9BDBEF0E8400FFB /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45068A77EBE5B9C7B5B7F9747404CCF /* Debug.swift */; };
-		B378DA88C3D27D97FC33A6227E086D7E /* TransitionOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D22609F27C0C72B10C64CDEDB1B305D /* TransitionOptions.swift */; };
-		B5454E6133FACC4FF2B1260049EA3C11 /* SplitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B22CE10A728EFD4706BC9ED17095D /* SplitCoordinator.swift */; };
 		B73FAE22FC2C65D60C28A64E77052EB4 /* Completable+AndThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D836E26E13F9D2C32C43630DFD922 /* Completable+AndThen.swift */; };
 		B8D36F26D5452163DC4BC19B6D06A28C /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96888CC006367915826C81420211ED2 /* Just.swift */; };
 		BD95E4BC718104C84F7851658AA3FE29 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAC047AF5685BE396ABFEECC6BBE813 /* Buffer.swift */; };
 		BDC1C85FC295E69FEED6436CABD6B5A1 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3900492AA6390355A1F28F4BD70A1CA /* PriorityQueue.swift */; };
 		C4E4D6818A36C89F8BA49A05E293BA5F /* SynchronizedDisposeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8F29D09AE1D8E6E103C274CBAD4892 /* SynchronizedDisposeType.swift */; };
+		C6224D65CB76BE35188C44DC9671C7D6 /* SFDiscoverCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63C20660B2F1E5BE6EA1E873EDC091 /* SFDiscoverCoordinator.swift */; };
 		C667FA9B9CA2B99DC20A8D4AF10B2D68 /* DelaySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2147CE0C233D40C5A339BE2E0A2591 /* DelaySubscription.swift */; };
-		C6B872B80E09C571FAD2A2D6140ADC00 /* TransitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748EB0CAA76627101D04A7FD82758B65 /* TransitionProtocol.swift */; };
 		C6FFB5DC01D6D855057BDB7B9D3C3C7D /* ConcurrentDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C49EA71D43B99269B78DABC15138D /* ConcurrentDispatchQueueScheduler.swift */; };
-		C72BA9FEB4B20A6F3A4CE60013A1555D /* CTMediator+Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24830D6A397630E9E25907AEA584310A /* CTMediator+Account.swift */; };
-		C7394018467A4BDD3BB7440F714BDE3F /* XCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2561B1CCB4399DFE333E09EE61A907E8 /* XCoordinator-dummy.m */; };
+		C7D7A16812AAFB9F1E37A7BC6A234AFE /* Transition+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E5113B51C6B2D26A607242796177 /* Transition+Init.swift */; };
 		C9D1CB09EE49A82B759B929618586E75 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8E1AFBCF31ACBB4C9322BA5EF70F21 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD4ADA36A7DF68D26DDE8214363856F4 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E27A47357EFCBBB29B5262809F0081 /* First.swift */; };
 		CD694C0B16BF9542A27DD7946AB77F3A /* SingleAssignmentDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263078CB6DE685CFC98F30BF6A9B0A83 /* SingleAssignmentDisposable.swift */; };
@@ -201,48 +205,45 @@
 		D165B42B89C543C053698AE43992A772 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE8EE1A93130843D5EC614E36B482A /* Timer.swift */; };
 		D19C9CB44E37C7DCDFEA752129E20BD1 /* SerialDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B239BA791AD9F89FD5A02CF82650A74 /* SerialDisposable.swift */; };
 		D29B07F9BB89DD02DF8479E59674915A /* ReplaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580D4F09EB26686F2602A332581C431 /* ReplaySubject.swift */; };
-		D4AC6EB0E76F248EF538012B0BAB4EB3 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A405F15A44A00965B6C213829142EF44 /* Transition.swift */; };
 		D7E801D9DE11CC567592A19ECD93B2D6 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 539D8FC4FDE5B280A1A87C21E1CDA272 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D831E534E1FC412279518A7BB2F4A211 /* SFHomeTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2A1F35767FFBF183FEB9B1015ECEE /* SFHomeTabCoordinator.swift */; };
 		D88D1773D62A011C69B6EBC40C976BEB /* ConcurrentMainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DEF77FDF6BE0A0BDB8C683F6620113 /* ConcurrentMainScheduler.swift */; };
 		D9319698B5B17CDBF62256F90E991EB6 /* WithLatestFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6DDDCFDF7D19A8AB093F757DC7CEDA /* WithLatestFrom.swift */; };
-		D957D901F822D30DD79973E20E68358C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3896A3D181D6B8E725CA895275E3F467 /* Coordinator.swift */; };
+		D9BEEB2B6D54470325A9571E893FDEA7 /* UINavigationController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5B813510B861282B4E05BD8A2B8407 /* UINavigationController+Transition.swift */; };
 		DB3F362A380421D822B8AF97F8D80FCD /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A663D551843BC79D03FB5E0704BB7D /* Queue.swift */; };
 		DC1B356C82B075C5D1D2BC57B12BE44D /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E3DF9FA35772DE23F3F202066E0DE /* Sequence.swift */; };
 		DCD250EB247CA3362A697180B0182086 /* InvocableScheduledItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F129023011D96A0DD9856402081AB06 /* InvocableScheduledItem.swift */; };
 		DD69FC6190FB0C4D8574932D64296693 /* AsSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEBF1BE7802C22C80EAF51D6B5EAE4 /* AsSingle.swift */; };
 		DDCA2294062DEE92F3FDC1E7CB72E840 /* DistinctUntilChanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = E651EEDF532FCBDEAD17951751645F5F /* DistinctUntilChanged.swift */; };
-		DE41843CFBCD19B5D4FC54093E0818CA /* SFHomeTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44EDFBF68407CE2DA1D1C4FF57976AC /* SFHomeTabCoordinator.swift */; };
 		DED3055847861EDDF90F925377D5D714 /* SerialDispatchQueueScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B11E54114C3CC1537AE128F6277937 /* SerialDispatchQueueScheduler.swift */; };
 		E05C3E0B8D466582B98045FF27EC5464 /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE48657EDC0EECA951E57A2281EABE2 /* Create.swift */; };
 		E05DA5DB5B8295E44B101DC8072944BC /* ShareReplayScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8605070290CE0B0014C310C44827A6 /* ShareReplayScope.swift */; };
 		E060A3B61583147855DDF23368350929 /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710D7CF49BE7F35E604D2AC597DE0E9 /* AnonymousObserver.swift */; };
 		E0A9095EBD109A44CBC85AD84D7B2819 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0360A90D97A8FE71F412268532993CEF /* Platform.Linux.swift */; };
-		E0FCC56B88F59CBF46AC55E46190C5E3 /* PageCoordinatorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5C5E15CE232A28FCBA44B416A73ED /* PageCoordinatorDataSource.swift */; };
 		E1568E4EEBD20A839AE8D485F76E94CD /* StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A27A684A1596F6D8B9C96DBFEFC23B2 /* StartWith.swift */; };
-		E195CEED1E65F871491A42B19F23D901 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12A904369D453379233EBA99144817D /* RxSwift.framework */; };
 		E1D09901E7F579D08345E3DD25E8C5E8 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417C236F6BD1BCB2A9909EEE265D070 /* Optional.swift */; };
-		E23B94E751F7DED0FFD091F77E74CC69 /* InteractiveTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2BA5782ADDF4D79043AF2FD710293 /* InteractiveTransitionAnimation.swift */; };
 		E4069D575BE2E2FB54C8488A93181834 /* TakeWhile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD8E854F2561538ED4F377DBB11CDF /* TakeWhile.swift */; };
 		E5856E1162F623E87FBF41836214CD2B /* SchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B50D32A0837E378BD79962DBF611B8 /* SchedulerType.swift */; };
-		E5F315C921272177B25B681BF3B50CC6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463E5BCE6F7972C7622C9BAA35FC374 /* Router.swift */; };
-		E63E7DFC6C9EE3EFE0DE6F4D509F9E69 /* SFCloudVillageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455DA265B81E8D9AC8D1579C9700BA02 /* SFCloudVillageCoordinator.swift */; };
 		E687FA252C567B7BDEB2C01EDB4097A1 /* TakeUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CA2825CD066BAECCFAC5307426ECC /* TakeUntil.swift */; };
-		E6B09C377F22DA1A8ED9E2FF2ADBDE42 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4F787CFA8083C940ED35D8934B237 /* TransitionAnimation.swift */; };
+		E734FB0F218961F40AB34F39A2F0F0A9 /* GestureRecognizerTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0E230D49D3545AF047C013590DE60 /* GestureRecognizerTarget.swift */; };
 		E73EEAFFB9533F32313735D9F7B20579 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF6AA758BE877B6069EBCB23680EB0D /* CTMediator-dummy.m */; };
 		E822E6FCFDEB95CF949DBC5FE59C2745 /* Bag+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96CBBD828BB78E73B72761503D72AF0 /* Bag+Rx.swift */; };
-		EC3AB09E50F98A335727FD6418F3DDE4 /* XCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5287F6F7CE5BAF74EA9E90F025FDE2 /* XCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2214EBE4FEEFD5E8171F6C4E5F2BBE /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603E6C255942738A8446AFE3196F3F8 /* PrimitiveSequence.swift */; };
 		EFA35142E87F39D8E1B51948A1F795AD /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406BCE87D08457969DAB18BA3063679A /* Empty.swift */; };
 		F023436537FB3460AA7073BCFFD078AA /* AsyncSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68D9519E264C7B05BE8B5472EEB7E0 /* AsyncSubject.swift */; };
-		F05DF56FF1390903EF864EBA51459AC6 /* Router+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6292053E7445874BB653D311AB5D0F /* Router+Rx.swift */; };
+		F19BE1021EAC6BB5290BDE53987B005C /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051512848803E5D58C7A90438C26AA4 /* NavigationCoordinator.swift */; };
 		F568CDFE9189631D2C10CC527C1BD33A /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA909174343EF76D7F829D1EE6120379 /* Platform.Darwin.swift */; };
-		F65B9F122C6FADBE71084EE7A1685ACB /* NavigationAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21422508BE08C6E7909F403D87E9FDA /* NavigationAnimationDelegate.swift */; };
+		F5926B7A124067C1C8F2A51ADF2C349A /* SFCloudMusicMediatorKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD361CC447A9860580B5C62C5ABED641 /* SFCloudMusicMediatorKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F696FC85DB1595C45E64F1D375C49578 /* XCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8432B9B6237322202BA8D792F471EE3E /* XCoordinator.framework */; };
 		F73D3DFAB783E7DBAD910C2C0AE6140C /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F7C2D6A386199A2D472C27147FAB54 /* Repeat.swift */; };
 		F7E285B8F3BA0E3C7EF6AFA17708FBD7 /* GroupedObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DB6383E407B7097983814531344DDE /* GroupedObservable.swift */; };
+		F98313AEE52C687C7E588061BC461D58 /* UIView+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BBC24456538E2A9DF3DC6D4E65DD6B /* UIView+Store.swift */; };
 		F996F714EC4FD3EE059CCCF0E8F9E7A2 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EC7C7C384097D040FF92C875571348 /* Cancelable.swift */; };
 		FA8F4115C98B0D3F526E157CECF839FB /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC53F3D076F45014E3DFF6391FDD3A8 /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA99DE9AD216F43B08E06A301A65BF1E /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C708674D3F6B292919DBC746CC1AB9 /* Merge.swift */; };
-		FCE77D3FAC0530FBF2250093C1CB5DC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CAE33870A12F4223A4FBF743F7A1A /* UIKit.framework */; };
+		FCA4F6D7F95AB46E43B2FD59CAD3A898 /* SFVideoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013578D485964732C0948115BB35BCCB /* SFVideoCoordinator.swift */; };
+		FD8FA4CD94D7E53827FAE95E592A1817 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D7F5DE7810D9712B6098C0AE7553F2 /* CTMediator.framework */; };
+		FE742B3D15F73169544C52F8817DE6BF /* PageCoordinatorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5C5E15CE232A28FCBA44B416A73ED /* PageCoordinatorDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -253,7 +254,14 @@
 			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
 			remoteInfo = RxSwift;
 		};
-		432EE99EAAB1BDAB6C7CA510DDE17434 /* PBXContainerItemProxy */ = {
+		23B5C714F81EE7A86F4D1715F9AC09F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		4926E4A9AF577EFBC3F16A2D2A9A1929 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -274,26 +282,12 @@
 			remoteGlobalIDString = 6A77805C1DC42E1A67242E4DA6B84ACA;
 			remoteInfo = SFCloudMusicMediatorKit;
 		};
-		790CC63E3417404A0C393C02B8E7DC27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
-			remoteInfo = RxSwift;
-		};
-		A7AA7C02EA399769166431D348BC5C96 /* PBXContainerItemProxy */ = {
+		9A7F83B668E1C7F27E891234ABAE72E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C4717263543A6872AB7E1FC7C39A56FE;
 			remoteInfo = XCoordinator;
-		};
-		CAF7F6EA7035FD9A582CDD5BC91F8DBE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
-			remoteInfo = CTMediator;
 		};
 		D1F50A934CEFDD4D3AC8B5A9C197372C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -301,6 +295,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 7454B25C27BEE4A2D74356F2B609AB41;
 			remoteInfo = "Pods-SFCloudMusicMediatorKit_Example";
+		};
+		E6FF8F9ABF8E6B9088328350A6D5AE9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9EA43B3B503823EE36C60D9C8A865F;
+			remoteInfo = RxSwift;
 		};
 		F66BDB4A0B031D3D60C36E0F109FAE6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -315,19 +316,19 @@
 		00534312C3957B1ACAFEC035CD88A3F1 /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImmediateSchedulerType.swift; path = RxSwift/ImmediateSchedulerType.swift; sourceTree = "<group>"; };
 		00DAF7358DF60FBCE7A0CE5A088DF606 /* ObserverBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserverBase.swift; path = RxSwift/Observers/ObserverBase.swift; sourceTree = "<group>"; };
 		010F63444D09CDA295EA327EAB3EDBC2 /* GroupBy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupBy.swift; path = RxSwift/Observables/GroupBy.swift; sourceTree = "<group>"; };
+		013578D485964732C0948115BB35BCCB /* SFVideoCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SFVideoCoordinator.swift; sourceTree = "<group>"; };
 		01F8830C430005732E887457F89656CF /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = RxSwift/Event.swift; sourceTree = "<group>"; };
 		0360A90D97A8FE71F412268532993CEF /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
 		0463641734A1EB9B9036EE0BA3311F7B /* Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Zip+arity.swift"; path = "RxSwift/Observables/Zip+arity.swift"; sourceTree = "<group>"; };
 		05EE5EAD693DBE4D21AEC3A6B6D7E0BE /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCloudMusicMediatorKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		076CB4A4514D01EE26F15095B64FBE3B /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/XCoordinator/Container.swift; sourceTree = "<group>"; };
-		0AA0B53A91332A2B5B91DDBB6B5C7F77 /* CTMediator+CloudVillage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+CloudVillage.swift"; path = "SFCloudMusicMediatorKit/Classes/Mediator/CTMediator+CloudVillage.swift"; sourceTree = "<group>"; };
 		0ACF0E130B5961E03ADA1DE28670034F /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Sources/XCoordinator/Route.swift; sourceTree = "<group>"; };
 		0AE811F2239A511ADE7D05E8C6284754 /* Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rx.swift; path = RxSwift/Rx.swift; sourceTree = "<group>"; };
-		0C7B7DCA24ED95527AA61C47428094FA /* SFCloudMusicMediatorKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCloudMusicMediatorKit.xcconfig; sourceTree = "<group>"; };
 		0CB2E187E733734A81C06E98DF7C8A29 /* PrimitiveSequence+Zip+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PrimitiveSequence+Zip+arity.swift"; path = "RxSwift/Traits/PrimitiveSequence+Zip+arity.swift"; sourceTree = "<group>"; };
 		0E8605070290CE0B0014C310C44827A6 /* ShareReplayScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShareReplayScope.swift; path = RxSwift/Observables/ShareReplayScope.swift; sourceTree = "<group>"; };
 		102E29F12958D25C83E044086CAB8F35 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
 		11940982B0085038E516254DF2834824 /* LockOwnerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LockOwnerType.swift; path = RxSwift/Concurrency/LockOwnerType.swift; sourceTree = "<group>"; };
+		1223C0BE785E176826BA3B5745C31C98 /* SFCloudMusicMediatorKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCloudMusicMediatorKit.xcconfig; sourceTree = "<group>"; };
 		1561876D386972CB4B41BC4A00E4CFC0 /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
 		15C3DBE41747A38AA9CD69E9C5D728B1 /* XCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XCoordinator-Info.plist"; sourceTree = "<group>"; };
 		17EDED5904A33C768601D441562EC3A1 /* UITabBarController+Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarController+Transition.swift"; path = "Sources/XCoordinator/UITabBarController+Transition.swift"; sourceTree = "<group>"; };
@@ -335,7 +336,6 @@
 		1A1B22CE10A728EFD4706BC9ED17095D /* SplitCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplitCoordinator.swift; path = Sources/XCoordinator/SplitCoordinator.swift; sourceTree = "<group>"; };
 		1AC67ABB796C1325FBA5175549BF5102 /* Scan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = RxSwift/Observables/Scan.swift; sourceTree = "<group>"; };
 		1D67F4082B44FEDF1126BF7B544FA6A5 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
-		1E0F1259A70537C40D0FF516EBEB39EA /* SFAccountCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFAccountCoordinator.swift; path = SFCloudMusicMediatorKit/Classes/Coordinators/SFAccountCoordinator.swift; sourceTree = "<group>"; };
 		1E65CE2C46833CCE35F709055F77DEA8 /* Concat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concat.swift; path = RxSwift/Observables/Concat.swift; sourceTree = "<group>"; };
 		1F3F1D6CDB50E430235CF158C8E1A287 /* SkipWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkipWhile.swift; path = RxSwift/Observables/SkipWhile.swift; sourceTree = "<group>"; };
 		1FE5E84142D423126351649E2DAD0380 /* String+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Rx.swift"; path = "RxSwift/Extensions/String+Rx.swift"; sourceTree = "<group>"; };
@@ -345,19 +345,20 @@
 		22BEBF1BE7802C22C80EAF51D6B5EAE4 /* AsSingle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsSingle.swift; path = RxSwift/Observables/AsSingle.swift; sourceTree = "<group>"; };
 		22F5C5E15CE232A28FCBA44B416A73ED /* PageCoordinatorDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageCoordinatorDataSource.swift; path = Sources/XCoordinator/PageCoordinatorDataSource.swift; sourceTree = "<group>"; };
 		239482883FC41DCA7059539FE9DBBA55 /* RxSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxSwift.modulemap; sourceTree = "<group>"; };
-		24830D6A397630E9E25907AEA584310A /* CTMediator+Account.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+Account.swift"; path = "SFCloudMusicMediatorKit/Classes/Mediator/CTMediator+Account.swift"; sourceTree = "<group>"; };
 		2561B1CCB4399DFE333E09EE61A907E8 /* XCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCoordinator-dummy.m"; sourceTree = "<group>"; };
 		25A4D2859DD65B69B23F4C3802E3FD99 /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultIfEmpty.swift; path = RxSwift/Observables/DefaultIfEmpty.swift; sourceTree = "<group>"; };
 		263078CB6DE685CFC98F30BF6A9B0A83 /* SingleAssignmentDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleAssignmentDisposable.swift; path = RxSwift/Disposables/SingleAssignmentDisposable.swift; sourceTree = "<group>"; };
-		281DF3DADDC0CF522A016D0E49578861 /* SFAppCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFAppCoordinator.swift; path = SFCloudMusicMediatorKit/Classes/Coordinators/SFAppCoordinator.swift; sourceTree = "<group>"; };
 		28A52F690162D6E86AE93303A073CCDA /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = RxSwift/Observables/Error.swift; sourceTree = "<group>"; };
 		28DEF77FDF6BE0A0BDB8C683F6620113 /* ConcurrentMainScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentMainScheduler.swift; path = RxSwift/Schedulers/ConcurrentMainScheduler.swift; sourceTree = "<group>"; };
 		2A06093108A267DC4A49093B8E1E4368 /* WeakErased+Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WeakErased+Router.swift"; path = "Sources/XCoordinator/WeakErased+Router.swift"; sourceTree = "<group>"; };
 		2A5287F6F7CE5BAF74EA9E90F025FDE2 /* XCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCoordinator-umbrella.h"; sourceTree = "<group>"; };
 		2A560AE49F0C6775A9CACAA21B55F2A7 /* CompositeDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositeDisposable.swift; path = RxSwift/Disposables/CompositeDisposable.swift; sourceTree = "<group>"; };
+		2A8D2B5E3341871C7FDD38B342A39314 /* CTMediator+Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CTMediator+Login.swift"; sourceTree = "<group>"; };
 		2AB4F787CFA8083C940ED35D8934B237 /* TransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimation.swift; path = Sources/XCoordinator/TransitionAnimation.swift; sourceTree = "<group>"; };
 		2C68D9519E264C7B05BE8B5472EEB7E0 /* AsyncSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncSubject.swift; path = RxSwift/Subjects/AsyncSubject.swift; sourceTree = "<group>"; };
+		2C935A934FA530020ED168D1D0574BE2 /* SFCloudMusicMediatorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFCloudMusicMediatorKit-dummy.m"; sourceTree = "<group>"; };
 		2CBA7E7F23EF6355C22EA48DA6DC7950 /* Pods-SFCloudMusicMediatorKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCloudMusicMediatorKit_Example-Info.plist"; sourceTree = "<group>"; };
+		2D9B6C7F5DD63319C092BC54DA5D09E5 /* SFMediator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFMediator.swift; path = SFCloudMusicMediatorKit/Classes/SFMediator.swift; sourceTree = "<group>"; };
 		2F3653C79A09C85C72A6A136D2B248A3 /* UIViewController+Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Transition.swift"; path = "Sources/XCoordinator/UIViewController+Transition.swift"; sourceTree = "<group>"; };
 		2F45F8C14E13DA525E73B8AFB5B49BD8 /* UIPageViewController+Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageViewController+Transition.swift"; path = "Sources/XCoordinator/UIPageViewController+Transition.swift"; sourceTree = "<group>"; };
 		3266D634C36BC076B39441EF2ABDB227 /* Date+Dispatch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Dispatch.swift"; path = "RxSwift/Date+Dispatch.swift"; sourceTree = "<group>"; };
@@ -387,8 +388,9 @@
 		42A20750A9AC66FE62F5558A6125B74E /* PageCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageCoordinator.swift; path = Sources/XCoordinator/PageCoordinator.swift; sourceTree = "<group>"; };
 		4455F82055CC5E18447237EE366AA93B /* RedirectionRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectionRouter.swift; path = Sources/XCoordinator/RedirectionRouter.swift; sourceTree = "<group>"; };
 		4463E5BCE6F7972C7622C9BAA35FC374 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Sources/XCoordinator/Router.swift; sourceTree = "<group>"; };
-		455DA265B81E8D9AC8D1579C9700BA02 /* SFCloudVillageCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFCloudVillageCoordinator.swift; path = SFCloudMusicMediatorKit/Classes/Coordinators/SFCloudVillageCoordinator.swift; sourceTree = "<group>"; };
 		4603E6C255942738A8446AFE3196F3F8 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrimitiveSequence.swift; path = RxSwift/Traits/PrimitiveSequence.swift; sourceTree = "<group>"; };
+		476AFFA5CE0A051274DAE484FF13A19E /* SFCloudMusicMediatorKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFCloudMusicMediatorKit-Info.plist"; sourceTree = "<group>"; };
+		4988A73B7193854775C35EC6E018EC80 /* SFAccountCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SFAccountCoordinator.swift; sourceTree = "<group>"; };
 		4A27A684A1596F6D8B9C96DBFEFC23B2 /* StartWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StartWith.swift; path = RxSwift/Observables/StartWith.swift; sourceTree = "<group>"; };
 		4AE63B662EEC8C77134C9EB79B6A5C0B /* ObserveOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObserveOn.swift; path = RxSwift/Observables/ObserveOn.swift; sourceTree = "<group>"; };
 		4B380BAF7EE1694A52D031E481B03D47 /* TabBarTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarTransition.swift; path = Sources/XCoordinator/TabBarTransition.swift; sourceTree = "<group>"; };
@@ -396,8 +398,10 @@
 		4B95A5DBBED24DB5E0E5A94672FDDF43 /* SubjectType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubjectType.swift; path = RxSwift/Subjects/SubjectType.swift; sourceTree = "<group>"; };
 		4BAD8E854F2561538ED4F377DBB11CDF /* TakeWhile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeWhile.swift; path = RxSwift/Observables/TakeWhile.swift; sourceTree = "<group>"; };
 		4D2147CE0C233D40C5A339BE2E0A2591 /* DelaySubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaySubscription.swift; path = RxSwift/Observables/DelaySubscription.swift; sourceTree = "<group>"; };
+		4E47CD89C3965244E83C61C754F39EBB /* SFAppCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SFAppCoordinator.swift; sourceTree = "<group>"; };
 		4E8AEA80A2D9FDF89D7AF8D4C447E99B /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = RxSwift/Observables/Filter.swift; sourceTree = "<group>"; };
 		4F52B8DEDF27DE72FC1DD76C7124FBD0 /* RxSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxSwift-prefix.pch"; sourceTree = "<group>"; };
+		4F7805C4BBE57424EAAF9D3961F2C263 /* SFCloudVillageCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SFCloudVillageCoordinator.swift; sourceTree = "<group>"; };
 		4FF167E02FEE5CB9BF628A4E497D00E8 /* WeakErased.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakErased.swift; path = Sources/XCoordinator/WeakErased.swift; sourceTree = "<group>"; };
 		4FF6AA758BE877B6069EBCB23680EB0D /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		50CE1C263489BF685D6B2A6B807D6FD7 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
@@ -409,11 +413,9 @@
 		5ABF94565A41DB0E5EFE810110539884 /* PageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageTransition.swift; path = Sources/XCoordinator/PageTransition.swift; sourceTree = "<group>"; };
 		5AF2BA5782ADDF4D79043AF2FD710293 /* InteractiveTransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransitionAnimation.swift; path = Sources/XCoordinator/InteractiveTransitionAnimation.swift; sourceTree = "<group>"; };
 		5C3F7751DEE6F7468BD74596BEB9AFF2 /* SynchronizedOnType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedOnType.swift; path = RxSwift/Concurrency/SynchronizedOnType.swift; sourceTree = "<group>"; };
-		5C8C46A12B5DCFD9AF6F446D1845AE03 /* CTMediator+Video.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+Video.swift"; path = "SFCloudMusicMediatorKit/Classes/Mediator/CTMediator+Video.swift"; sourceTree = "<group>"; };
 		5E4F3C68D9E15EB4C98698F7290EEF5D /* RetryWhen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryWhen.swift; path = RxSwift/Observables/RetryWhen.swift; sourceTree = "<group>"; };
 		5FFA78624BE313EF5022559097ADBED9 /* RefCountDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefCountDisposable.swift; path = RxSwift/Disposables/RefCountDisposable.swift; sourceTree = "<group>"; };
 		60B4BB4D65D82D7A2F8E83F51788A94F /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalSchedulerTimeConverter.swift; path = RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
-		60D28384E684A10EC80A145188C409F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		61744336B122AA035E1BFFC48938F3F6 /* Pods-SFCloudMusicMediatorKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFCloudMusicMediatorKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		626726E4E9D1BD7793EB15BBBCAB79F0 /* SingleAsync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleAsync.swift; path = RxSwift/Observables/SingleAsync.swift; sourceTree = "<group>"; };
 		638A1A404A5ECE5AB4732AEEEC9047C7 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedUnsubscribeType.swift; path = RxSwift/Concurrency/SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
@@ -421,22 +423,24 @@
 		650DA9279E77FFDD73F6C650949C1D61 /* ScheduledItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItem.swift; path = RxSwift/Schedulers/Internal/ScheduledItem.swift; sourceTree = "<group>"; };
 		65FEEF1A43CE283CBAF8EEF72F1AA97D /* StrongRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrongRouter.swift; path = Sources/XCoordinator/StrongRouter.swift; sourceTree = "<group>"; };
 		66DE945C4FD0644E8897D4DA01962E8E /* Delay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delay.swift; path = RxSwift/Observables/Delay.swift; sourceTree = "<group>"; };
-		66E38E1FC2F9C5F8A0B25A2412A9027F /* SFCloudMusicMediatorKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SFCloudMusicMediatorKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		66F55F43E8754AABFEDA08241E4731D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67729EF8B9D3E7CBA0F49852B557E150 /* CTMediator+Account.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CTMediator+Account.swift"; sourceTree = "<group>"; };
 		67D04E4D2D8B8DE362ECC1F927855CF3 /* CompactMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompactMap.swift; path = RxSwift/Observables/CompactMap.swift; sourceTree = "<group>"; };
 		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69BEDAF3421570E2138A3F9537F63F55 /* Throttle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttle.swift; path = RxSwift/Observables/Throttle.swift; sourceTree = "<group>"; };
 		6B0A13E2F17A50784F9790909A751829 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = RxSwift/SwiftSupport/SwiftSupport.swift; sourceTree = "<group>"; };
-		6D2F34FBE1ACD1776AEFFE68BEC00FB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6D76BE474FB55572741E91055E695F59 /* CurrentThreadScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentThreadScheduler.swift; path = RxSwift/Schedulers/CurrentThreadScheduler.swift; sourceTree = "<group>"; };
 		6E4F97ECB95BA72289348D8820F5FA66 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		6E5F7AA3D1858F318330C635C0541596 /* CTMediator+Discover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CTMediator+Discover.swift"; sourceTree = "<group>"; };
 		6F5C49EA71D43B99269B78DABC15138D /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcurrentDispatchQueueScheduler.swift; path = RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
 		72B11E54114C3CC1537AE128F6277937 /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDispatchQueueScheduler.swift; path = RxSwift/Schedulers/SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
+		72C92D1D880000696B5BD5BA6007C6BC /* CTMediator+CloudVillage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CTMediator+CloudVillage.swift"; sourceTree = "<group>"; };
 		748EB0CAA76627101D04A7FD82758B65 /* TransitionProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionProtocol.swift; path = Sources/XCoordinator/TransitionProtocol.swift; sourceTree = "<group>"; };
 		76853BF2A4BD7C73236641D4A2D9AA3C /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = RxSwift/Errors.swift; sourceTree = "<group>"; };
 		769038D9670CAD979520982C08A28DE0 /* ViewCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewCoordinator.swift; path = Sources/XCoordinator/ViewCoordinator.swift; sourceTree = "<group>"; };
 		7710D7CF49BE7F35E604D2AC597DE0E9 /* AnonymousObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnonymousObserver.swift; path = RxSwift/Observers/AnonymousObserver.swift; sourceTree = "<group>"; };
 		77440E46FBFF64670BC0F97F03931A6B /* Maybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maybe.swift; path = RxSwift/Traits/Maybe.swift; sourceTree = "<group>"; };
+		777F9664E6A2104A1B2D37CF8B3DDD52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		77E0B5977C15C0F5F7E1F3B6A641B8FF /* Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7853D740ACCDD24C1C581011F09AACA2 /* TabBarAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarAnimationDelegate.swift; path = Sources/XCoordinator/TabBarAnimationDelegate.swift; sourceTree = "<group>"; };
 		795E7F3F7AC6931B260CC10C686720A8 /* TailRecursiveSink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TailRecursiveSink.swift; path = RxSwift/Observers/TailRecursiveSink.swift; sourceTree = "<group>"; };
@@ -453,14 +457,16 @@
 		84E6317A2A363DB277AC8B660123C6BD /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseCoordinator.swift; path = Sources/XCoordinator/BaseCoordinator.swift; sourceTree = "<group>"; };
 		87C57DD792EDCA25008412FC22064CE9 /* StaticTransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StaticTransitionAnimation.swift; path = Sources/XCoordinator/StaticTransitionAnimation.swift; sourceTree = "<group>"; };
 		8966D07D87CE958AA5B50FE95F35DEAB /* Skip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skip.swift; path = RxSwift/Observables/Skip.swift; sourceTree = "<group>"; };
-		8A050436E87E3B6147E6F6D498B03824 /* CTMediator+Mine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+Mine.swift"; path = "SFCloudMusicMediatorKit/Classes/Mediator/CTMediator+Mine.swift"; sourceTree = "<group>"; };
 		8B7974F46A2EAD06C0B2F77B43E72D9C /* Deferred.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deferred.swift; path = RxSwift/Observables/Deferred.swift; sourceTree = "<group>"; };
+		8E63C20660B2F1E5BE6EA1E873EDC091 /* SFDiscoverCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SFDiscoverCoordinator.swift; sourceTree = "<group>"; };
+		8FD2A1F35767FFBF183FEB9B1015ECEE /* SFHomeTabCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SFHomeTabCoordinator.swift; sourceTree = "<group>"; };
 		93C7860F2B87C2613421DC0C919662A7 /* Zip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zip.swift; path = RxSwift/Observables/Zip.swift; sourceTree = "<group>"; };
 		949A18A1235490BA650F119966BD2E64 /* Do.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Do.swift; path = RxSwift/Observables/Do.swift; sourceTree = "<group>"; };
 		959372A0B76CF47742F879A93EDA3979 /* Pods-SFCloudMusicMediatorKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCloudMusicMediatorKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		95F7C2D6A386199A2D472C27147FAB54 /* Repeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeat.swift; path = RxSwift/Observables/Repeat.swift; sourceTree = "<group>"; };
 		9724A70C55CDEF13DCA6508F467C1C44 /* UnownedErased+Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UnownedErased+Router.swift"; path = "Sources/XCoordinator/UnownedErased+Router.swift"; sourceTree = "<group>"; };
 		99B15FC3C27756D667601BF94630E998 /* Enumerated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enumerated.swift; path = RxSwift/Observables/Enumerated.swift; sourceTree = "<group>"; };
+		9AEBBA679FEC22FBFD43755A24854E7F /* SFMineCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SFMineCoordinator.swift; sourceTree = "<group>"; };
 		9BE657CD56AEF79788C5727088E7CE46 /* Timeout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeout.swift; path = RxSwift/Observables/Timeout.swift; sourceTree = "<group>"; };
 		9C351A15F185282C80B27C1946C98FDC /* AsyncLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncLock.swift; path = RxSwift/Concurrency/AsyncLock.swift; sourceTree = "<group>"; };
 		9C7D1A61CE633CBF7D6571C1A4449D81 /* AsMaybe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsMaybe.swift; path = RxSwift/Observables/AsMaybe.swift; sourceTree = "<group>"; };
@@ -473,9 +479,10 @@
 		A1F2BF8F0934E60A7563D8BE95AD3CB8 /* OperationQueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationQueueScheduler.swift; path = RxSwift/Schedulers/OperationQueueScheduler.swift; sourceTree = "<group>"; };
 		A22BDA6D3CA024F081E6F4E104CA9880 /* Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reduce.swift; path = RxSwift/Observables/Reduce.swift; sourceTree = "<group>"; };
 		A2CB1E930556BB5D3A3C44AE9D10B65A /* SwitchIfEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchIfEmpty.swift; path = RxSwift/Observables/SwitchIfEmpty.swift; sourceTree = "<group>"; };
-		A2E82E56AECB75FA83174D8215F2B203 /* SFMineCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFMineCoordinator.swift; path = SFCloudMusicMediatorKit/Classes/Coordinators/SFMineCoordinator.swift; sourceTree = "<group>"; };
+		A332E07722AB1A21F2054156EA96A135 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A405F15A44A00965B6C213829142EF44 /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = Sources/XCoordinator/Transition.swift; sourceTree = "<group>"; };
 		A45068A77EBE5B9C7B5B7F9747404CCF /* Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debug.swift; path = RxSwift/Observables/Debug.swift; sourceTree = "<group>"; };
+		A45FC09D8385D87105D0EA389A954AEE /* SFCloudMusicMediatorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFCloudMusicMediatorKit.modulemap; sourceTree = "<group>"; };
 		A5078F2C3BB02F262754B245C5E4015B /* Producer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Producer.swift; path = RxSwift/Observables/Producer.swift; sourceTree = "<group>"; };
 		A56837758048735AD654CB00816C8F9E /* HistoricalScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoricalScheduler.swift; path = RxSwift/Schedulers/HistoricalScheduler.swift; sourceTree = "<group>"; };
 		A73CA2825CD066BAECCFAC5307426ECC /* TakeUntil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TakeUntil.swift; path = RxSwift/Observables/TakeUntil.swift; sourceTree = "<group>"; };
@@ -500,7 +507,6 @@
 		B7E4206DF47B47F8C4306A94A111E163 /* Pods-SFCloudMusicMediatorKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCloudMusicMediatorKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7FD0FB5BAFCF0999DE233630FAF013E /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extensions.swift"; path = "RxSwift/ObservableType+Extensions.swift"; sourceTree = "<group>"; };
 		B809A496C8B3C5428641D0855641E744 /* InterruptibleTransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InterruptibleTransitionAnimation.swift; path = Sources/XCoordinator/InterruptibleTransitionAnimation.swift; sourceTree = "<group>"; };
-		B8D60F20EA44AAFB1E5AE2619F5A6107 /* SFVideoCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFVideoCoordinator.swift; path = SFCloudMusicMediatorKit/Classes/Coordinators/SFVideoCoordinator.swift; sourceTree = "<group>"; };
 		B8F521E523024ED2C9D284B032E58B92 /* CombineLatest+arity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CombineLatest+arity.swift"; path = "RxSwift/Observables/CombineLatest+arity.swift"; sourceTree = "<group>"; };
 		B905C7C933F6A4FB1D5B2990526CB3A4 /* AddRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddRef.swift; path = RxSwift/Observables/AddRef.swift; sourceTree = "<group>"; };
 		B96CBBD828BB78E73B72761503D72AF0 /* Bag+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bag+Rx.swift"; path = "RxSwift/Extensions/Bag+Rx.swift"; sourceTree = "<group>"; };
@@ -512,6 +518,7 @@
 		BCF05F43A8DC1EFB0C6193A886768059 /* SubscribeOn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscribeOn.swift; path = RxSwift/Observables/SubscribeOn.swift; sourceTree = "<group>"; };
 		BD5C5C6186333FF8D9F6733A6F36471E /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		BEE730EB593BCC47ACEA010479D603B0 /* Reactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reactive.swift; path = RxSwift/Reactive.swift; sourceTree = "<group>"; };
+		C168F172F0DC066CECB7111F99AC015D /* SFCloudMusicMediatorKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SFCloudMusicMediatorKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C19105D74EEDEB8410352ED28E53C9AF /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Sources/XCoordinator/Animation.swift; sourceTree = "<group>"; };
 		C26256864323FA772232DE735BFF2257 /* XCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCoordinator.modulemap; sourceTree = "<group>"; };
 		C2A663D551843BC79D03FB5E0704BB7D /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
@@ -523,22 +530,19 @@
 		C8D8899774EC01A464B5DC0F4AEF83F7 /* NopDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NopDisposable.swift; path = RxSwift/Disposables/NopDisposable.swift; sourceTree = "<group>"; };
 		CC9C2224688F8AC774541BA245CE2ECD /* SubscriptionDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionDisposable.swift; path = RxSwift/Disposables/SubscriptionDisposable.swift; sourceTree = "<group>"; };
 		CCDC85D663E86557E6D98DC03FA43E1D /* VirtualTimeConverterType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeConverterType.swift; path = RxSwift/Schedulers/VirtualTimeConverterType.swift; sourceTree = "<group>"; };
+		CD361CC447A9860580B5C62C5ABED641 /* SFCloudMusicMediatorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCloudMusicMediatorKit-umbrella.h"; sourceTree = "<group>"; };
 		CE476A7AFEE331132402F0BDBCBACF23 /* Pods_SFCloudMusicMediatorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFCloudMusicMediatorKit_Tests.framework; path = "Pods-SFCloudMusicMediatorKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF66851B1F0416F14F23422F935E2CAA /* CTMediator+Login.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+Login.swift"; path = "SFCloudMusicMediatorKit/Classes/Mediator/CTMediator+Login.swift"; sourceTree = "<group>"; };
 		CFBF4B9D6FD0E793D10CF82148E0F8D0 /* Dematerialize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dematerialize.swift; path = RxSwift/Observables/Dematerialize.swift; sourceTree = "<group>"; };
 		D051512848803E5D58C7A90438C26AA4 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = Sources/XCoordinator/NavigationCoordinator.swift; sourceTree = "<group>"; };
 		D0BBC24456538E2A9DF3DC6D4E65DD6B /* UIView+Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Store.swift"; path = "Sources/XCoordinator/UIView+Store.swift"; sourceTree = "<group>"; };
 		D29EF97B8EEFB07EAC327456DCD6EB59 /* SchedulerServices+Emulation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SchedulerServices+Emulation.swift"; path = "RxSwift/Schedulers/SchedulerServices+Emulation.swift"; sourceTree = "<group>"; };
 		D3968549E15643BCAA748A4F54F0205E /* Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D44EDFBF68407CE2DA1D1C4FF57976AC /* SFHomeTabCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFHomeTabCoordinator.swift; path = SFCloudMusicMediatorKit/Classes/Coordinators/SFHomeTabCoordinator.swift; sourceTree = "<group>"; };
 		D4C6E3B50E895EEDB8FDFF19A0D31880 /* BehaviorSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BehaviorSubject.swift; path = RxSwift/Subjects/BehaviorSubject.swift; sourceTree = "<group>"; };
 		D57990F34CEAB73D3EF912074A2BC1ED /* Sample.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sample.swift; path = RxSwift/Observables/Sample.swift; sourceTree = "<group>"; };
 		D69E3DF9FA35772DE23F3F202066E0DE /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = RxSwift/Observables/Sequence.swift; sourceTree = "<group>"; };
 		D861A0F0604C1AD47C9B37CB1242248D /* Multicast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Multicast.swift; path = RxSwift/Observables/Multicast.swift; sourceTree = "<group>"; };
 		D86C1ACEBA3E7604BEC7A8E7AEB772ED /* AnyCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyCoordinator.swift; path = Sources/XCoordinator/AnyCoordinator.swift; sourceTree = "<group>"; };
 		DA909174343EF76D7F829D1EE6120379 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
-		DAD57A30C1F51549AE57A8E763EA7B8E /* SFCloudMusicMediatorKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCloudMusicMediatorKit-prefix.pch"; sourceTree = "<group>"; };
-		DB80075C35CF998A919B2E1A22F57C8C /* CTMediator+Discover.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CTMediator+Discover.swift"; path = "SFCloudMusicMediatorKit/Classes/Mediator/CTMediator+Discover.swift"; sourceTree = "<group>"; };
 		DBC53F3D076F45014E3DFF6391FDD3A8 /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCloudMusicMediatorKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		DD5B813510B861282B4E05BD8A2B8407 /* UINavigationController+Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Transition.swift"; path = "Sources/XCoordinator/UINavigationController+Transition.swift"; sourceTree = "<group>"; };
 		DD6DDDCFDF7D19A8AB093F757DC7CEDA /* WithLatestFrom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WithLatestFrom.swift; path = RxSwift/Observables/WithLatestFrom.swift; sourceTree = "<group>"; };
@@ -548,19 +552,19 @@
 		DE9023650896A6B17B1371184F53C7F2 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarCoordinator.swift; path = Sources/XCoordinator/TabBarCoordinator.swift; sourceTree = "<group>"; };
 		DEF588048A6B6C07AE34C5940F906E6F /* ScheduledItemType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduledItemType.swift; path = RxSwift/Schedulers/Internal/ScheduledItemType.swift; sourceTree = "<group>"; };
 		E18DDD9A15F6179B0A2DBD8883DDEEE4 /* DisposeBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBase.swift; path = RxSwift/Disposables/DisposeBase.swift; sourceTree = "<group>"; };
-		E39F7D46AD15021807915845B0A9D5D8 /* SFCloudMusicMediatorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFCloudMusicMediatorKit-dummy.m"; sourceTree = "<group>"; };
 		E40BF6930BACB4BB3847C4873B50EB56 /* Amb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Amb.swift; path = RxSwift/Observables/Amb.swift; sourceTree = "<group>"; };
+		E488074D7014CCA80C7099F2DED66EFD /* CTMediator+Video.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CTMediator+Video.swift"; sourceTree = "<group>"; };
 		E543A88897C4A991CE12094810B52C91 /* Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E560612F1DBB8EC78AB84E91275CB45E /* CTMediator+Mine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CTMediator+Mine.swift"; sourceTree = "<group>"; };
 		E651EEDF532FCBDEAD17951751645F5F /* DistinctUntilChanged.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistinctUntilChanged.swift; path = RxSwift/Observables/DistinctUntilChanged.swift; sourceTree = "<group>"; };
 		E7E27A47357EFCBBB29B5262809F0081 /* First.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = First.swift; path = RxSwift/Observables/First.swift; sourceTree = "<group>"; };
 		E96888CC006367915826C81420211ED2 /* Just.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Just.swift; path = RxSwift/Observables/Just.swift; sourceTree = "<group>"; };
+		EA80958DFCF429CD709E962F9F8FE04D /* SFCloudMusicMediatorKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCloudMusicMediatorKit-prefix.pch"; sourceTree = "<group>"; };
 		ED46D5171B4746403342B0F80EC68638 /* Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Take.swift; path = RxSwift/Observables/Take.swift; sourceTree = "<group>"; };
 		ED6292053E7445874BB653D311AB5D0F /* Router+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Router+Rx.swift"; path = "Sources/XCoordinatorRx/Router+Rx.swift"; sourceTree = "<group>"; };
 		EDA1ADC01632C9C2056CD9A117E7DDF5 /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VirtualTimeScheduler.swift; path = RxSwift/Schedulers/VirtualTimeScheduler.swift; sourceTree = "<group>"; };
 		EE08FCF3759884C5528C30A53C25D197 /* TransitionPerformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPerformer.swift; path = Sources/XCoordinator/TransitionPerformer.swift; sourceTree = "<group>"; };
-		EEF6919B7AF595986544BB499AC36BC4 /* SFCloudMusicMediatorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCloudMusicMediatorKit-umbrella.h"; sourceTree = "<group>"; };
 		EF80BDB8BAC411279C2D0BD61DEDAF48 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = RxSwift/Deprecated.swift; sourceTree = "<group>"; };
-		F0119928E8D560306DCE262CA58AEEAC /* SFCloudMusicMediatorKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFCloudMusicMediatorKit-Info.plist"; sourceTree = "<group>"; };
 		F143CCB146884169DB33D6361CD8FED1 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = RxSwift/Disposable.swift; sourceTree = "<group>"; };
 		F21422508BE08C6E7909F403D87E9FDA /* NavigationAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAnimationDelegate.swift; path = Sources/XCoordinator/NavigationAnimationDelegate.swift; sourceTree = "<group>"; };
 		F24A4E3D189AAABD49A9644449B80028 /* ElementAt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementAt.swift; path = RxSwift/Observables/ElementAt.swift; sourceTree = "<group>"; };
@@ -574,8 +578,6 @@
 		F94025A969484D989417CA430662FC31 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = RxSwift/Disposables/DisposeBag.swift; sourceTree = "<group>"; };
 		F9B08876E90D21796F2E901034A57F62 /* CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineLatest.swift; path = RxSwift/Observables/CombineLatest.swift; sourceTree = "<group>"; };
 		F9C6551531185B1E54401364022414C9 /* Catch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Catch.swift; path = RxSwift/Observables/Catch.swift; sourceTree = "<group>"; };
-		FC0D6C72AE5CD8C0DDDD72A6E8FEFB0F /* SFDiscoverCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SFDiscoverCoordinator.swift; path = SFCloudMusicMediatorKit/Classes/Coordinators/SFDiscoverCoordinator.swift; sourceTree = "<group>"; };
-		FC4AE45B5FB8F165FAF70F809F872476 /* SFCloudMusicMediatorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFCloudMusicMediatorKit.modulemap; sourceTree = "<group>"; };
 		FD3F2F99DB0313662DD59EDF831E7B07 /* ObservableType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableType.swift; path = RxSwift/ObservableType.swift; sourceTree = "<group>"; };
 		FE1DD9E65C0AF8019A9CFC9BCD7FC5FB /* RxSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxSwift-Info.plist"; sourceTree = "<group>"; };
 		FE4A4109B65DC4A1DD29B290F885D271 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = RxSwift/Observable.swift; sourceTree = "<group>"; };
@@ -591,27 +593,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B7C58C22037218BB31E563510B030A7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8462BC81E03FBE606D56CEFD5E23E26C /* Foundation.framework in Frameworks */,
-				E195CEED1E65F871491A42B19F23D901 /* RxSwift.framework in Frameworks */,
-				FCE77D3FAC0530FBF2250093C1CB5DC7 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E4CD39F5E42329C446D5B44C5F0B78F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22C9180F72AE7599E0610CD3479819A1 /* CTMediator.framework in Frameworks */,
-				8ADDCA270D08A157FD40BF04FB1F8E3B /* Foundation.framework in Frameworks */,
-				6600E46B67DF5BA8345A3A0FFDB91216 /* RxSwift.framework in Frameworks */,
-				3DB0950D3634E4168A25DFF534F8EB11 /* XCoordinator.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		61D1B8FDF19FC73D6548912062F61BE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -620,11 +601,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7102F0446254CD562AA6E88392768F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8FA4CD94D7E53827FAE95E592A1817 /* CTMediator.framework in Frameworks */,
+				79C4CA8C2BE48D8CFFDC58ACA29A00E1 /* Foundation.framework in Frameworks */,
+				557460A6DB43D40295565D5C4E3D7AAB /* RxSwift.framework in Frameworks */,
+				F696FC85DB1595C45E64F1D375C49578 /* XCoordinator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94AE197FF506E157A399BF353965DA09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C1C703AA1FC5E7AF0DEEE0515046B6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18F340782EA9151599574EC198491F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6299A3F6387D5D6BAFFAF9D33C203D /* Foundation.framework in Frameworks */,
+				6EC360625CCFC997F8672150D0568428 /* RxSwift.framework in Frameworks */,
+				058640C719BDD92DFC3DDACAFF537768 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +642,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025B3985EA884833A00E88A9400C64BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A45FC09D8385D87105D0EA389A954AEE /* SFCloudMusicMediatorKit.modulemap */,
+				1223C0BE785E176826BA3B5745C31C98 /* SFCloudMusicMediatorKit.xcconfig */,
+				2C935A934FA530020ED168D1D0574BE2 /* SFCloudMusicMediatorKit-dummy.m */,
+				476AFFA5CE0A051274DAE484FF13A19E /* SFCloudMusicMediatorKit-Info.plist */,
+				EA80958DFCF429CD709E962F9F8FE04D /* SFCloudMusicMediatorKit-prefix.pch */,
+				CD361CC447A9860580B5C62C5ABED641 /* SFCloudMusicMediatorKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SFCloudMusicMediatorKit";
+			sourceTree = "<group>";
+		};
 		0D31BC7491C7FA91D809C18CB7D2BD8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,6 +697,14 @@
 			path = "../Target Support Files/RxSwift";
 			sourceTree = "<group>";
 		};
+		2DF24D0C727C0CD292030411B5AE904D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92BBE1F6A3B83E32126D68087FECE931 /* SFCloudMusicMediatorKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		3A0BE37658EF2C6F9778A3C84B7F0C7B /* Pods-SFCloudMusicMediatorKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -696,27 +720,6 @@
 			);
 			name = "Pods-SFCloudMusicMediatorKit_Example";
 			path = "Target Support Files/Pods-SFCloudMusicMediatorKit_Example";
-			sourceTree = "<group>";
-		};
-		3DFE2A9C0E5D549C4161868DF5C10C47 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				797B0D970B8805F79C2B470083E7F36F /* SFCloudMusicMediatorKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		421A4D092B23372F795701A0D670A0F6 /* Mediator */ = {
-			isa = PBXGroup;
-			children = (
-				24830D6A397630E9E25907AEA584310A /* CTMediator+Account.swift */,
-				0AA0B53A91332A2B5B91DDBB6B5C7F77 /* CTMediator+CloudVillage.swift */,
-				DB80075C35CF998A919B2E1A22F57C8C /* CTMediator+Discover.swift */,
-				CF66851B1F0416F14F23422F935E2CAA /* CTMediator+Login.swift */,
-				8A050436E87E3B6147E6F6D498B03824 /* CTMediator+Mine.swift */,
-				5C8C46A12B5DCFD9AF6F446D1845AE03 /* CTMediator+Video.swift */,
-			);
-			name = Mediator;
 			sourceTree = "<group>";
 		};
 		44333ADEBDB7606F0080416061FD2305 /* Pods-SFCloudMusicMediatorKit_Tests */ = {
@@ -744,18 +747,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5DF2CCB475C98AA91E117DEBEC72D53F /* Support Files */ = {
+		516418AEEF363403C4E97DDE7858BBDE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FC4AE45B5FB8F165FAF70F809F872476 /* SFCloudMusicMediatorKit.modulemap */,
-				0C7B7DCA24ED95527AA61C47428094FA /* SFCloudMusicMediatorKit.xcconfig */,
-				E39F7D46AD15021807915845B0A9D5D8 /* SFCloudMusicMediatorKit-dummy.m */,
-				F0119928E8D560306DCE262CA58AEEAC /* SFCloudMusicMediatorKit-Info.plist */,
-				DAD57A30C1F51549AE57A8E763EA7B8E /* SFCloudMusicMediatorKit-prefix.pch */,
-				EEF6919B7AF595986544BB499AC36BC4 /* SFCloudMusicMediatorKit-umbrella.h */,
+				777F9664E6A2104A1B2D37CF8B3DDD52 /* LICENSE */,
+				A332E07722AB1A21F2054156EA96A135 /* README.md */,
+				C168F172F0DC066CECB7111F99AC015D /* SFCloudMusicMediatorKit.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SFCloudMusicMediatorKit";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		57D3943F31717388E4B291BDA476B172 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				67729EF8B9D3E7CBA0F49852B557E150 /* CTMediator+Account.swift */,
+				72C92D1D880000696B5BD5BA6007C6BC /* CTMediator+CloudVillage.swift */,
+				6E5F7AA3D1858F318330C635C0541596 /* CTMediator+Discover.swift */,
+				2A8D2B5E3341871C7FDD38B342A39314 /* CTMediator+Login.swift */,
+				E560612F1DBB8EC78AB84E91275CB45E /* CTMediator+Mine.swift */,
+				E488074D7014CCA80C7099F2DED66EFD /* CTMediator+Video.swift */,
+			);
+			name = Mediator;
+			path = SFCloudMusicMediatorKit/Classes/Mediator;
 			sourceTree = "<group>";
 		};
 		6EF7504B9468B367DDA9FF59DA85FC6E /* Core */ = {
@@ -821,26 +834,17 @@
 			path = XCoordinator;
 			sourceTree = "<group>";
 		};
-		797B0D970B8805F79C2B470083E7F36F /* SFCloudMusicMediatorKit */ = {
+		92BBE1F6A3B83E32126D68087FECE931 /* SFCloudMusicMediatorKit */ = {
 			isa = PBXGroup;
 			children = (
-				C2701B428BFA7B0B462D596735DB4338 /* Coordinators */,
-				421A4D092B23372F795701A0D670A0F6 /* Mediator */,
-				96DC64AFEF51A9637FAE68981CBECB55 /* Pod */,
-				5DF2CCB475C98AA91E117DEBEC72D53F /* Support Files */,
+				2D9B6C7F5DD63319C092BC54DA5D09E5 /* SFMediator.swift */,
+				FF9082C3BE4705BF1F30F9596F3F2A3F /* Coordinators */,
+				57D3943F31717388E4B291BDA476B172 /* Mediator */,
+				516418AEEF363403C4E97DDE7858BBDE /* Pod */,
+				025B3985EA884833A00E88A9400C64BA /* Support Files */,
 			);
 			name = SFCloudMusicMediatorKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		96DC64AFEF51A9637FAE68981CBECB55 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				60D28384E684A10EC80A145188C409F0 /* LICENSE */,
-				6D2F34FBE1ACD1776AEFFE68BEC00FB7 /* README.md */,
-				66E38E1FC2F9C5F8A0B25A2412A9027F /* SFCloudMusicMediatorKit.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		9798207BD2EFAF15EE7C2D9661DC7881 /* Frameworks */ = {
@@ -879,20 +883,6 @@
 			path = "../Target Support Files/XCoordinator";
 			sourceTree = "<group>";
 		};
-		C2701B428BFA7B0B462D596735DB4338 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				1E0F1259A70537C40D0FF516EBEB39EA /* SFAccountCoordinator.swift */,
-				281DF3DADDC0CF522A016D0E49578861 /* SFAppCoordinator.swift */,
-				455DA265B81E8D9AC8D1579C9700BA02 /* SFCloudVillageCoordinator.swift */,
-				FC0D6C72AE5CD8C0DDDD72A6E8FEFB0F /* SFDiscoverCoordinator.swift */,
-				D44EDFBF68407CE2DA1D1C4FF57976AC /* SFHomeTabCoordinator.swift */,
-				A2E82E56AECB75FA83174D8215F2B203 /* SFMineCoordinator.swift */,
-				B8D60F20EA44AAFB1E5AE2619F5A6107 /* SFVideoCoordinator.swift */,
-			);
-			name = Coordinators;
-			sourceTree = "<group>";
-		};
 		CAF10F23059345D72E2922B9D49206F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -907,7 +897,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3DFE2A9C0E5D549C4161868DF5C10C47 /* Development Pods */,
+				2DF24D0C727C0CD292030411B5AE904D /* Development Pods */,
 				9798207BD2EFAF15EE7C2D9661DC7881 /* Frameworks */,
 				CAF10F23059345D72E2922B9D49206F2 /* Pods */,
 				0D31BC7491C7FA91D809C18CB7D2BD8B /* Products */,
@@ -1084,6 +1074,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FF9082C3BE4705BF1F30F9596F3F2A3F /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				4988A73B7193854775C35EC6E018EC80 /* SFAccountCoordinator.swift */,
+				4E47CD89C3965244E83C61C754F39EBB /* SFAppCoordinator.swift */,
+				4F7805C4BBE57424EAAF9D3961F2C263 /* SFCloudVillageCoordinator.swift */,
+				8E63C20660B2F1E5BE6EA1E873EDC091 /* SFDiscoverCoordinator.swift */,
+				8FD2A1F35767FFBF183FEB9B1015ECEE /* SFHomeTabCoordinator.swift */,
+				9AEBBA679FEC22FBFD43755A24854E7F /* SFMineCoordinator.swift */,
+				013578D485964732C0948115BB35BCCB /* SFVideoCoordinator.swift */,
+			);
+			name = Coordinators;
+			path = SFCloudMusicMediatorKit/Classes/Coordinators;
+			sourceTree = "<group>";
+		};
 		FF919273610FCD01D0C211BEB590BE2F /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -1100,6 +1105,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				679EF405A97457627D47CE033C035B5C /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB6BE8CC358A8E013ECFBD4556E39CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226DC2A6023CED0D557A486C50FE5A4E /* XCoordinator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,19 +1133,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A61833023D149776872622CBE7DA753 /* Headers */ = {
+		BACA55D7767824AE59AA3C41A82CBC71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C10929257C06BC8B09B99A2DFA3FD73 /* SFCloudMusicMediatorKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8CABDEDDA549B1EBB8480163B60C100 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC3AB09E50F98A335727FD6418F3DDE4 /* XCoordinator-umbrella.h in Headers */,
+				F5926B7A124067C1C8F2A51ADF2C349A /* SFCloudMusicMediatorKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,19 +1172,19 @@
 		};
 		6A77805C1DC42E1A67242E4DA6B84ACA /* SFCloudMusicMediatorKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6A23191A139981D5AA8A4EEFCA408CA /* Build configuration list for PBXNativeTarget "SFCloudMusicMediatorKit" */;
+			buildConfigurationList = 0A0D256AE90C842376AE0D6DF40AAC4B /* Build configuration list for PBXNativeTarget "SFCloudMusicMediatorKit" */;
 			buildPhases = (
-				9A61833023D149776872622CBE7DA753 /* Headers */,
-				FF912C90B233FE7AE1F3806B8315F906 /* Sources */,
-				5E4CD39F5E42329C446D5B44C5F0B78F /* Frameworks */,
-				E614B7292632BD6B3EB885DD2270B4BE /* Resources */,
+				BACA55D7767824AE59AA3C41A82CBC71 /* Headers */,
+				C4FAC4B8D757A32A01D3D1D2AC9FC82A /* Sources */,
+				7102F0446254CD562AA6E88392768F46 /* Frameworks */,
+				BA1D83E3A565DE5F21C65A7383F22BA0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5172637EB6543C204CC67C87DC39ADA6 /* PBXTargetDependency */,
-				F2A7E1CE2F5E393EC568BD61595AA087 /* PBXTargetDependency */,
-				AA2CF5A98FDF0BC00780D5CA575D4950 /* PBXTargetDependency */,
+				FC87FE6BCA40BE8E1A0083662E9CF462 /* PBXTargetDependency */,
+				45779D0EBB05CB785701815FE0A0CF7A /* PBXTargetDependency */,
+				70C21276745FF1072347C1DD8BA146DB /* PBXTargetDependency */,
 			);
 			name = SFCloudMusicMediatorKit;
 			productName = SFCloudMusicMediatorKit;
@@ -1229,17 +1234,17 @@
 		};
 		C4717263543A6872AB7E1FC7C39A56FE /* XCoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37517925B4603AE412F64A07A749B9AF /* Build configuration list for PBXNativeTarget "XCoordinator" */;
+			buildConfigurationList = C41B6EDA7E4332E5709333F6E2995701 /* Build configuration list for PBXNativeTarget "XCoordinator" */;
 			buildPhases = (
-				C8CABDEDDA549B1EBB8480163B60C100 /* Headers */,
-				7E9B8CCAD84C4B433BDF5DFAD356E81B /* Sources */,
-				4B7C58C22037218BB31E563510B030A7 /* Frameworks */,
-				7B5E1352239633463A57BFCC6CD761CF /* Resources */,
+				5FB6BE8CC358A8E013ECFBD4556E39CD /* Headers */,
+				DC04E1F8B1C6AFB105B497C672679BCE /* Sources */,
+				F18F340782EA9151599574EC198491F6 /* Frameworks */,
+				296ECCBEE5C488E1C7BA57BDBF6C37C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				38C49A6AC9B8FC6FD3D397D06604846E /* PBXTargetDependency */,
+				AE6824AEF5939F4B718F4A98612C627B /* PBXTargetDependency */,
 			);
 			name = XCoordinator;
 			productName = XCoordinator;
@@ -1303,14 +1308,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		400F9571C43C05D59C6D163D02CBC274 /* Resources */ = {
+		296ECCBEE5C488E1C7BA57BDBF6C37C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B5E1352239633463A57BFCC6CD761CF /* Resources */ = {
+		400F9571C43C05D59C6D163D02CBC274 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1331,7 +1336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E614B7292632BD6B3EB885DD2270B4BE /* Resources */ = {
+		BA1D83E3A565DE5F21C65A7383F22BA0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1517,57 +1522,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E9B8CCAD84C4B433BDF5DFAD356E81B /* Sources */ = {
+		C4FAC4B8D757A32A01D3D1D2AC9FC82A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736239B0DA5E11F6813F052C68FE335B /* Animation.swift in Sources */,
-				B25674FF40A13E5CB86F90B37CA98AE9 /* AnyCoordinator.swift in Sources */,
-				10E18681A56F35B6837BF547866E4FDA /* AnyTransitionPerformer.swift in Sources */,
-				2530518682F0267F0CB0A38B92DEDEC1 /* BaseCoordinator.swift in Sources */,
-				14831BFA291B848D4C87EC82F4D6A4C4 /* BasicCoordinator.swift in Sources */,
-				1561911502E643C0D0D302B68515E755 /* Container.swift in Sources */,
-				D957D901F822D30DD79973E20E68358C /* Coordinator.swift in Sources */,
-				2F8D93CA9B37EB78BBF147DAC7EFF843 /* CoordinatorPreviewingDelegateObject.swift in Sources */,
-				45712121671732B9F260E235E40724E9 /* DeepLinking.swift in Sources */,
-				5EE01E8C9F5E2C4712EC6415481EDB4D /* GestureRecognizerTarget.swift in Sources */,
-				E23B94E751F7DED0FFD091F77E74CC69 /* InteractiveTransitionAnimation.swift in Sources */,
-				8FA28906ECB84F19407DC3FE5BE061E8 /* InterruptibleTransitionAnimation.swift in Sources */,
-				F65B9F122C6FADBE71084EE7A1685ACB /* NavigationAnimationDelegate.swift in Sources */,
-				6266194BB4EA22B558D6E21AF11C9842 /* NavigationCoordinator.swift in Sources */,
-				124B305AD19455C50407BA851FEFE428 /* NavigationTransition.swift in Sources */,
-				5BA9BA9A10A691C9B5A598EB62485DB4 /* PageCoordinator.swift in Sources */,
-				E0FCC56B88F59CBF46AC55E46190C5E3 /* PageCoordinatorDataSource.swift in Sources */,
-				6E2D17B9A1A7961D6E6053EBF8D1E896 /* PageTransition.swift in Sources */,
-				9C361773649C401C950B2C05825EC001 /* Presentable.swift in Sources */,
-				7E536EB6996DCB2A57B845BDDBB68A1C /* RedirectionRouter.swift in Sources */,
-				37AFB5E589E93302D61A95516BA7E3CA /* Route.swift in Sources */,
-				F05DF56FF1390903EF864EBA51459AC6 /* Router+Rx.swift in Sources */,
-				E5F315C921272177B25B681BF3B50CC6 /* Router.swift in Sources */,
-				B5454E6133FACC4FF2B1260049EA3C11 /* SplitCoordinator.swift in Sources */,
-				6806F521E8BD42D452B989FB10D14553 /* SplitTransition.swift in Sources */,
-				AD29BE73E3894E94F556430EADBB76F3 /* StaticTransitionAnimation.swift in Sources */,
-				0A02579A82B0954D2370FB04AE993B71 /* StrongRouter.swift in Sources */,
-				10307B789688EE44688BA5D76FBA0C17 /* TabBarAnimationDelegate.swift in Sources */,
-				704E34CA36709ED5B1FF321D166B7876 /* TabBarCoordinator.swift in Sources */,
-				81B208DA8D709C09ED11EFF0E2805EA9 /* TabBarTransition.swift in Sources */,
-				18B1C7DC80E421A95D0AE0FF2A08A94B /* Transition+Init.swift in Sources */,
-				D4AC6EB0E76F248EF538012B0BAB4EB3 /* Transition.swift in Sources */,
-				E6B09C377F22DA1A8ED9E2FF2ADBDE42 /* TransitionAnimation.swift in Sources */,
-				B378DA88C3D27D97FC33A6227E086D7E /* TransitionOptions.swift in Sources */,
-				2BB849FB9E2EBD0C25E3B79E39523D15 /* TransitionPerformer.swift in Sources */,
-				C6B872B80E09C571FAD2A2D6140ADC00 /* TransitionProtocol.swift in Sources */,
-				339A5248A94069FCDF3583058A2FBAE1 /* UINavigationController+Transition.swift in Sources */,
-				77238452D987D944DBA9D0558F28889B /* UIPageViewController+Transition.swift in Sources */,
-				42E9AA976895E420C1914B854B240B7E /* UITabBarController+Transition.swift in Sources */,
-				81FB736AAC6C3B8482443C35F1303622 /* UIView+Store.swift in Sources */,
-				60469EA62EED759F7B89E60EE7A6B092 /* UIViewController+Transition.swift in Sources */,
-				99652658354FC242105E25D28F01D780 /* UnownedErased+Router.swift in Sources */,
-				3CD4CE53D3F159BE9D2F1FE2DE834B06 /* UnownedErased.swift in Sources */,
-				373A393AABD8F69ADAB8C1DBFBCDB398 /* ViewCoordinator.swift in Sources */,
-				2735A010CA22D27C351ABBED908B6A38 /* WeakErased+Router.swift in Sources */,
-				AE20053B0B08661566AA84634504E27E /* WeakErased.swift in Sources */,
-				C7394018467A4BDD3BB7440F714BDE3F /* XCoordinator-dummy.m in Sources */,
+				82A0A6CDF23722ACCC128BFCA70F8813 /* CTMediator+Account.swift in Sources */,
+				11B53357C0E779C945ECFC962147008B /* CTMediator+CloudVillage.swift in Sources */,
+				2DFF9668F1288248FD223CC063776B80 /* CTMediator+Discover.swift in Sources */,
+				B0F347570024E864684CAA4B07A6589D /* CTMediator+Login.swift in Sources */,
+				6FFA0668C29356DB9012351BB0A34032 /* CTMediator+Mine.swift in Sources */,
+				801DE7057BF7154FF216FD73F80094BE /* CTMediator+Video.swift in Sources */,
+				156F3A7011DCE3E31B73F639DAF244B7 /* SFAccountCoordinator.swift in Sources */,
+				A4E82137F895113736084F5181066344 /* SFAppCoordinator.swift in Sources */,
+				A27C551A1F42493A80762194341205DE /* SFCloudMusicMediatorKit-dummy.m in Sources */,
+				A1450D8F8CEA04646832EF706A3400FC /* SFCloudVillageCoordinator.swift in Sources */,
+				C6224D65CB76BE35188C44DC9671C7D6 /* SFDiscoverCoordinator.swift in Sources */,
+				D831E534E1FC412279518A7BB2F4A211 /* SFHomeTabCoordinator.swift in Sources */,
+				4E97190718A798A2B1DD07CAFFBE2A1D /* SFMediator.swift in Sources */,
+				1A51E82353384879664540FCA2374AF0 /* SFMineCoordinator.swift in Sources */,
+				FCA4F6D7F95AB46E43B2FD59CAD3A898 /* SFVideoCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC04E1F8B1C6AFB105B497C672679BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3B2E8026337848AF2F8AE161483BB4 /* Animation.swift in Sources */,
+				2A6213091E3286BADB01816E7038AACD /* AnyCoordinator.swift in Sources */,
+				6F1CA07E426F053D8551792D4DC392A3 /* AnyTransitionPerformer.swift in Sources */,
+				3FE5F3A09027020D3FBBA5D4BD526AC3 /* BaseCoordinator.swift in Sources */,
+				41B97C88569295CE9EAB239B1AEDA3DE /* BasicCoordinator.swift in Sources */,
+				2A0312531948BB96BAAFC6195104FFF1 /* Container.swift in Sources */,
+				615CCA47D2099D046C97FF516A598ED0 /* Coordinator.swift in Sources */,
+				6AC02B0AD9A7E7EF4C8D3DA83C84E9B1 /* CoordinatorPreviewingDelegateObject.swift in Sources */,
+				139D13F1C739E4545F6759B61590F030 /* DeepLinking.swift in Sources */,
+				E734FB0F218961F40AB34F39A2F0F0A9 /* GestureRecognizerTarget.swift in Sources */,
+				601CE57D3855C7C633D41B9B0DA1E8D5 /* InteractiveTransitionAnimation.swift in Sources */,
+				9D1B3223EF511C820085220AF79B9BDB /* InterruptibleTransitionAnimation.swift in Sources */,
+				9935E3C785927BCBDC423EEC2AD3039F /* NavigationAnimationDelegate.swift in Sources */,
+				F19BE1021EAC6BB5290BDE53987B005C /* NavigationCoordinator.swift in Sources */,
+				7C0581F17094BD7E3144D9C72E5A2E11 /* NavigationTransition.swift in Sources */,
+				1C1A00FB705F305DF054F0DDF8F61CF3 /* PageCoordinator.swift in Sources */,
+				FE742B3D15F73169544C52F8817DE6BF /* PageCoordinatorDataSource.swift in Sources */,
+				933D44A978E2DF1B630E1D3B8E562ED0 /* PageTransition.swift in Sources */,
+				26EDE4710F9169A6A0C85CA82B8B9225 /* Presentable.swift in Sources */,
+				2C5978B690681D02EF0DE9FB0F5B7016 /* RedirectionRouter.swift in Sources */,
+				715CA04951BE816634320BE63BC88DBA /* Route.swift in Sources */,
+				1B06C2A2749962803BAD5453B7F5C225 /* Router+Rx.swift in Sources */,
+				98F15E3FE720B3EC06ABB833EFF1D560 /* Router.swift in Sources */,
+				98B82C033D2EA038C0C40A722BE9C2DD /* SplitCoordinator.swift in Sources */,
+				35CDF4CA70AF8F2D568BD6AACF4E9377 /* SplitTransition.swift in Sources */,
+				31DD04F4B9871BFDF7387915B22366DC /* StaticTransitionAnimation.swift in Sources */,
+				46C12CFCDA87AA5B32FFD596523B5267 /* StrongRouter.swift in Sources */,
+				6F5048FC233EA216DAE69578ED4BCE92 /* TabBarAnimationDelegate.swift in Sources */,
+				1A1A67EE1187F85F30088A2DD4B8760A /* TabBarCoordinator.swift in Sources */,
+				75248B643B76E65AF87182475B49005D /* TabBarTransition.swift in Sources */,
+				C7D7A16812AAFB9F1E37A7BC6A234AFE /* Transition+Init.swift in Sources */,
+				549AF3285644D3B497561F3F90DCF9C4 /* Transition.swift in Sources */,
+				AB31905179A797733CBA26ECE3792E2D /* TransitionAnimation.swift in Sources */,
+				7D2A440CD7B41447B245A9685B1A9898 /* TransitionOptions.swift in Sources */,
+				6D9DA0772DB41EC82EF31B025601E8F9 /* TransitionPerformer.swift in Sources */,
+				9390A42B62CD63AD4EC8842A0E3FE2F0 /* TransitionProtocol.swift in Sources */,
+				D9BEEB2B6D54470325A9571E893FDEA7 /* UINavigationController+Transition.swift in Sources */,
+				A1D7B6B1FBC67CA85943533291B0E1DE /* UIPageViewController+Transition.swift in Sources */,
+				3E715B155755D7BE4DD3EAC494CD98A2 /* UITabBarController+Transition.swift in Sources */,
+				F98313AEE52C687C7E588061BC461D58 /* UIView+Store.swift in Sources */,
+				8DB3E3F9E0D3051CB389AE28083E00D5 /* UIViewController+Transition.swift in Sources */,
+				86345BDA67AC3D1FF2B414B988DD8F91 /* UnownedErased+Router.swift in Sources */,
+				21CA47C6019E91BADDA0E78ED2E28070 /* UnownedErased.swift in Sources */,
+				1ED48EF3AC6D6339E941C8D46430A90B /* ViewCoordinator.swift in Sources */,
+				AC88A8D5342E5BCF034E48656E1B6AC0 /* WeakErased+Router.swift in Sources */,
+				10CD8E20E1E7CE20E3188DC8C5D0B4CD /* WeakErased.swift in Sources */,
+				6B2B8B40E9947A22D39C28131C55ED79 /* XCoordinator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1576,27 +1603,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				293CD8EEEEE5EA888677C26AD25CC912 /* Pods-SFCloudMusicMediatorKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF912C90B233FE7AE1F3806B8315F906 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C72BA9FEB4B20A6F3A4CE60013A1555D /* CTMediator+Account.swift in Sources */,
-				17A49D86E210368B7034DC6753AD3BE9 /* CTMediator+CloudVillage.swift in Sources */,
-				778859C48A83FA7AC4967DD5DBB3D2AF /* CTMediator+Discover.swift in Sources */,
-				3F6525C1C8011CAF61C349BB0D62A828 /* CTMediator+Login.swift in Sources */,
-				0C5AD4D1B0C98692D7D67DFF3F764A4F /* CTMediator+Mine.swift in Sources */,
-				A643657EAABE0DB93962165D3DC484E2 /* CTMediator+Video.swift in Sources */,
-				751E668C7FA50CBCF0666A239C6680F2 /* SFAccountCoordinator.swift in Sources */,
-				3E30C71AEF3A3C0C4F46FE1F7D084D6D /* SFAppCoordinator.swift in Sources */,
-				472B7E164D8585828A6A531D611753FC /* SFCloudMusicMediatorKit-dummy.m in Sources */,
-				E63E7DFC6C9EE3EFE0DE6F4D509F9E69 /* SFCloudVillageCoordinator.swift in Sources */,
-				92170FD98A214072CFCAD992ACC3C8C8 /* SFDiscoverCoordinator.swift in Sources */,
-				DE41843CFBCD19B5D4FC54093E0818CA /* SFHomeTabCoordinator.swift in Sources */,
-				8DB31396A95E613CA5421477E54E21F0 /* SFMineCoordinator.swift in Sources */,
-				40A5C015F6A21229D596DE3F62AFBB76 /* SFVideoCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1609,23 +1615,23 @@
 			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
 			targetProxy = F66BDB4A0B031D3D60C36E0F109FAE6E /* PBXContainerItemProxy */;
 		};
-		38C49A6AC9B8FC6FD3D397D06604846E /* PBXTargetDependency */ = {
+		45779D0EBB05CB785701815FE0A0CF7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RxSwift;
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
-			targetProxy = 790CC63E3417404A0C393C02B8E7DC27 /* PBXContainerItemProxy */;
-		};
-		5172637EB6543C204CC67C87DC39ADA6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CTMediator;
-			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
-			targetProxy = CAF7F6EA7035FD9A582CDD5BC91F8DBE /* PBXContainerItemProxy */;
+			targetProxy = 4926E4A9AF577EFBC3F16A2D2A9A1929 /* PBXContainerItemProxy */;
 		};
 		6FBBF0E6B0CB113CFDE0F69ACDB8C181 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SFCloudMusicMediatorKit_Example";
 			target = 7454B25C27BEE4A2D74356F2B609AB41 /* Pods-SFCloudMusicMediatorKit_Example */;
 			targetProxy = D1F50A934CEFDD4D3AC8B5A9C197372C /* PBXContainerItemProxy */;
+		};
+		70C21276745FF1072347C1DD8BA146DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCoordinator;
+			target = C4717263543A6872AB7E1FC7C39A56FE /* XCoordinator */;
+			targetProxy = 9A7F83B668E1C7F27E891234ABAE72E2 /* PBXContainerItemProxy */;
 		};
 		84A7C36DDF6FAE739788D7CFEB61CE6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1639,11 +1645,11 @@
 			target = C4717263543A6872AB7E1FC7C39A56FE /* XCoordinator */;
 			targetProxy = 5A95D6EFF7C2F8E63142C1D51D6E691A /* PBXContainerItemProxy */;
 		};
-		AA2CF5A98FDF0BC00780D5CA575D4950 /* PBXTargetDependency */ = {
+		AE6824AEF5939F4B718F4A98612C627B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = XCoordinator;
-			target = C4717263543A6872AB7E1FC7C39A56FE /* XCoordinator */;
-			targetProxy = A7AA7C02EA399769166431D348BC5C96 /* PBXContainerItemProxy */;
+			name = RxSwift;
+			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
+			targetProxy = E6FF8F9ABF8E6B9088328350A6D5AE9E /* PBXContainerItemProxy */;
 		};
 		D8F41CDA26444EED28965FED29B46C72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1651,11 +1657,11 @@
 			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
 			targetProxy = 1E20BB14B8E3DFBD68FE69C61087C49D /* PBXContainerItemProxy */;
 		};
-		F2A7E1CE2F5E393EC568BD61595AA087 /* PBXTargetDependency */ = {
+		FC87FE6BCA40BE8E1A0083662E9CF462 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RxSwift;
-			target = EA9EA43B3B503823EE36C60D9C8A865F /* RxSwift */;
-			targetProxy = 432EE99EAAB1BDAB6C7CA510DDE17434 /* PBXContainerItemProxy */;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 23B5C714F81EE7A86F4D1715F9AC09F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1757,6 +1763,37 @@
 			};
 			name = Release;
 		};
+		32CA6FF2BDB661059D643B03976CC84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F86A65060FB8C680908A67344CB99F /* XCoordinator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCoordinator/XCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCoordinator/XCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCoordinator/XCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = XCoordinator;
+				PRODUCT_NAME = XCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4BC6E3F70C95F84E9A9720FD5A6CE805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 102E29F12958D25C83E044086CAB8F35 /* CTMediator.xcconfig */;
@@ -1789,9 +1826,9 @@
 			};
 			name = Release;
 		};
-		737A37235D505507E668F74752774F3B /* Debug */ = {
+		4CFF2A2F76F8F4FBC87F3A665EE91685 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83F86A65060FB8C680908A67344CB99F /* XCoordinator.xcconfig */;
+			baseConfigurationReference = 1223C0BE785E176826BA3B5745C31C98 /* SFCloudMusicMediatorKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1802,25 +1839,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XCoordinator/XCoordinator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XCoordinator/XCoordinator-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XCoordinator/XCoordinator.modulemap";
-				PRODUCT_MODULE_NAME = XCoordinator;
-				PRODUCT_NAME = XCoordinator;
+				MODULEMAP_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.modulemap";
+				PRODUCT_MODULE_NAME = SFCloudMusicMediatorKit;
+				PRODUCT_NAME = SFCloudMusicMediatorKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		7DCE95A09EB63489A64DB8A88C5732AE /* Release */ = {
+		6183A3333E08DB96B00CCA1C012E7205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83F86A65060FB8C680908A67344CB99F /* XCoordinator.xcconfig */;
 			buildSettings = {
@@ -1851,37 +1889,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8D72967A150DC87652039DFC76F6675D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C7B7DCA24ED95527AA61C47428094FA /* SFCloudMusicMediatorKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.modulemap";
-				PRODUCT_MODULE_NAME = SFCloudMusicMediatorKit;
-				PRODUCT_NAME = SFCloudMusicMediatorKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		9225766CAA57DF290A9A6F428020C30E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1913,38 +1920,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9ABF849DBA35FF8CB6386FB9FD843D6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C7B7DCA24ED95527AA61C47428094FA /* SFCloudMusicMediatorKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.modulemap";
-				PRODUCT_MODULE_NAME = SFCloudMusicMediatorKit;
-				PRODUCT_NAME = SFCloudMusicMediatorKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2070,6 +2045,37 @@
 			};
 			name = Debug;
 		};
+		D8EEBA17C0B110B3AA14A27C9E7291D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1223C0BE785E176826BA3B5745C31C98 /* SFCloudMusicMediatorKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.modulemap";
+				PRODUCT_MODULE_NAME = SFCloudMusicMediatorKit;
+				PRODUCT_NAME = SFCloudMusicMediatorKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E08B44CFA41A197F9525BE4E9BBEC683 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 327301A64D738E75C7D2E4EC928E972C /* Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig */;
@@ -2173,6 +2179,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A0D256AE90C842376AE0D6DF40AAC4B /* Build configuration list for PBXNativeTarget "SFCloudMusicMediatorKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8EEBA17C0B110B3AA14A27C9E7291D2 /* Debug */,
+				4CFF2A2F76F8F4FBC87F3A665EE91685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3369B102FC665E0387F7D83687AA5301 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2187,15 +2202,6 @@
 			buildConfigurations = (
 				F63F70050300A20A9F0A47588693CD4E /* Debug */,
 				FEEE8EF45B1863BA6523B057A109689F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37517925B4603AE412F64A07A749B9AF /* Build configuration list for PBXNativeTarget "XCoordinator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				737A37235D505507E668F74752774F3B /* Debug */,
-				7DCE95A09EB63489A64DB8A88C5732AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2227,11 +2233,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6A23191A139981D5AA8A4EEFCA408CA /* Build configuration list for PBXNativeTarget "SFCloudMusicMediatorKit" */ = {
+		C41B6EDA7E4332E5709333F6E2995701 /* Build configuration list for PBXNativeTarget "XCoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D72967A150DC87652039DFC76F6675D /* Debug */,
-				9ABF849DBA35FF8CB6386FB9FD843D6A /* Release */,
+				32CA6FF2BDB661059D643B03976CC84D /* Debug */,
+				6183A3333E08DB96B00CCA1C012E7205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
