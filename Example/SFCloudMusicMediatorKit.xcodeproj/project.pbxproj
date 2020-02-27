@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04E97DAC38FEA1EA7BC97E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		221C5E45FA6B1335B3D97722 /* SFCloudMusicMediatorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SFCloudMusicMediatorKit.podspec; path = ../SFCloudMusicMediatorKit.podspec; sourceTree = "<group>"; };
-		38E47D063523BE7011EE54DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		04E97DAC38FEA1EA7BC97E6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		221C5E45FA6B1335B3D97722 /* SFCloudMusicMediatorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SFCloudMusicMediatorKit.podspec; path = ../SFCloudMusicMediatorKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38E47D063523BE7011EE54DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4D2D90C83F3008D6175AD8E2 /* Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicMediatorKit_Tests/Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4D4F77133333A6EDD3EED061 /* Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-SFCloudMusicMediatorKit_Example/Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5B6A8C9304B4F98E73C81773 /* Pods_SFCloudMusicMediatorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFCloudMusicMediatorKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				CF572EAEEF41AAF4DF44B55F /* Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig */,
 				4D2D90C83F3008D6175AD8E2 /* Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

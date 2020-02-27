@@ -1,0 +1,6 @@
+framework module Pods_SFCloudMusicMediatorKit_Tests {
+  umbrella header "Pods-SFCloudMusicMediatorKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

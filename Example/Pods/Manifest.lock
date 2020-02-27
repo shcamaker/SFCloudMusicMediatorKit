@@ -1,0 +1,16 @@
+PODS:
+  - SFCloudMusicMediatorKit (0.1.0)
+
+DEPENDENCIES:
+  - SFCloudMusicMediatorKit (from `../`)
+
+EXTERNAL SOURCES:
+  SFCloudMusicMediatorKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFCloudMusicMediatorKit: 69a3b3ed35a9fa7245c55aa06fdd96a5a63e6cc4
+
+PODFILE CHECKSUM: 2227e848150efe845f5a69adc1ab1145c9d001b8
+
+COCOAPODS: 1.8.3

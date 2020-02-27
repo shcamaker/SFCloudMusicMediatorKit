@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A4FD45791006274303E922ED6F7E99 /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC53F3D076F45014E3DFF6391FDD3A8 /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C1C703AA1FC5E7AF0DEEE0515046B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2830080C1D11A6BB813FF89AD4DACF3E /* SFCloudMusicMediatorKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CF371A631149353107FEDADC75052B /* SFCloudMusicMediatorKit-dummy.m */; };
+		47976AF80B133A746005AABFBC753233 /* Pods-SFCloudMusicMediatorKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A156574E100166B1A90986288B78084 /* Pods-SFCloudMusicMediatorKit_Tests-dummy.m */; };
+		5101A5B8288B81507781E2588F325AFE /* SFCloudMusicMediatorKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01EF3CC9B542CA3AEA57617867B001B2 /* SFCloudMusicMediatorKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5414134CD6286DB21A1E924FFADE5F6C /* Pods-SFCloudMusicMediatorKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4F6C08BD7F67F9E3B1AD6EC26D42B /* Pods-SFCloudMusicMediatorKit_Example-dummy.m */; };
+		679EF405A97457627D47CE033C035B5C /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EE5EAD693DBE4D21AEC3A6B6D7E0BE /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69D6439B903BB303008E0E8E06B068EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7B0FB44DE0164FC29E48CA9F48DE61A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F6E45C13B056CAD10325D26B41B693F8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264FF9438F688F2E08E1BB77A2AD98D /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		260BCF6E037B46920D6FA31319959D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A77805C1DC42E1A67242E4DA6B84ACA;
+			remoteInfo = SFCloudMusicMediatorKit;
+		};
+		D1F50A934CEFDD4D3AC8B5A9C197372C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7454B25C27BEE4A2D74356F2B609AB41;
+			remoteInfo = "Pods-SFCloudMusicMediatorKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EF3CC9B542CA3AEA57617867B001B2 /* SFCloudMusicMediatorKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCloudMusicMediatorKit-umbrella.h"; sourceTree = "<group>"; };
+		02172F3F436B0D804AE219255FD1BD45 /* SFCloudMusicMediatorKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SFCloudMusicMediatorKit-Info.plist"; sourceTree = "<group>"; };
+		05EE5EAD693DBE4D21AEC3A6B6D7E0BE /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCloudMusicMediatorKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1A156574E100166B1A90986288B78084 /* Pods-SFCloudMusicMediatorKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFCloudMusicMediatorKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		20A1BE958FD37997F72824E8D75799A7 /* Pods-SFCloudMusicMediatorKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFCloudMusicMediatorKit_Example.modulemap"; sourceTree = "<group>"; };
+		2CBA7E7F23EF6355C22EA48DA6DC7950 /* Pods-SFCloudMusicMediatorKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCloudMusicMediatorKit_Example-Info.plist"; sourceTree = "<group>"; };
+		2FE3B34A8E7BFF0886A15820ECDD0782 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		327301A64D738E75C7D2E4EC928E972C /* Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39D4F6C08BD7F67F9E3B1AD6EC26D42B /* Pods-SFCloudMusicMediatorKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SFCloudMusicMediatorKit_Example-dummy.m"; sourceTree = "<group>"; };
+		3B5BFE3AEA84C1A065E061624625B7A5 /* SFCloudMusicMediatorKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SFCloudMusicMediatorKit-prefix.pch"; sourceTree = "<group>"; };
+		410E9A46DE16C6F7E299B9CE9EA2AD88 /* SFCloudMusicMediatorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SFCloudMusicMediatorKit.framework; path = SFCloudMusicMediatorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B93512C85EFC91F0200BFCE502AB8CC /* Pods-SFCloudMusicMediatorKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCloudMusicMediatorKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5264FF9438F688F2E08E1BB77A2AD98D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SFCloudMusicMediatorKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		61744336B122AA035E1BFFC48938F3F6 /* Pods-SFCloudMusicMediatorKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SFCloudMusicMediatorKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		77E0B5977C15C0F5F7E1F3B6A641B8FF /* Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B576B0D5D98689FA933C68C395B4E6B /* Pods-SFCloudMusicMediatorKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SFCloudMusicMediatorKit_Tests.modulemap"; sourceTree = "<group>"; };
+		959372A0B76CF47742F879A93EDA3979 /* Pods-SFCloudMusicMediatorKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCloudMusicMediatorKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		966AEC6CAFC5CAF825EEAD8B03841EC0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CF371A631149353107FEDADC75052B /* SFCloudMusicMediatorKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFCloudMusicMediatorKit-dummy.m"; sourceTree = "<group>"; };
+		AAE71318C6BA54197C1C81D6C604C0CD /* Pods-SFCloudMusicMediatorKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFCloudMusicMediatorKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7E4206DF47B47F8C4306A94A111E163 /* Pods-SFCloudMusicMediatorKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCloudMusicMediatorKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF7892FF75337070286222A4A13F31DD /* SFCloudMusicMediatorKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SFCloudMusicMediatorKit.xcconfig; sourceTree = "<group>"; };
+		CE476A7AFEE331132402F0BDBCBACF23 /* Pods_SFCloudMusicMediatorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFCloudMusicMediatorKit_Tests.framework; path = "Pods-SFCloudMusicMediatorKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA48562D2680A3823B37E2D6B977504 /* SFCloudMusicMediatorKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SFCloudMusicMediatorKit.modulemap; sourceTree = "<group>"; };
+		D3968549E15643BCAA748A4F54F0205E /* Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC53F3D076F45014E3DFF6391FDD3A8 /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFCloudMusicMediatorKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		E543A88897C4A991CE12094810B52C91 /* Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2E93A01A6248021BE260CB87E554390 /* Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F33FFBCF9C48E172550E311BCDE9C2CC /* Pods_SFCloudMusicMediatorKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SFCloudMusicMediatorKit_Example.framework; path = "Pods-SFCloudMusicMediatorKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA301A172741F484BDB7FBE06402F76 /* SFCloudMusicMediatorKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SFCloudMusicMediatorKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A5F51F4E9A4C4F061F0EE434147C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D6439B903BB303008E0E8E06B068EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AE197FF506E157A399BF353965DA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1C703AA1FC5E7AF0DEEE0515046B6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D31E2A49EF9CFA574D807BAFAAAE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0FB44DE0164FC29E48CA9F48DE61A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0BE37658EF2C6F9778A3C84B7F0C7B /* Pods-SFCloudMusicMediatorKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				20A1BE958FD37997F72824E8D75799A7 /* Pods-SFCloudMusicMediatorKit_Example.modulemap */,
+				AAE71318C6BA54197C1C81D6C604C0CD /* Pods-SFCloudMusicMediatorKit_Example-acknowledgements.markdown */,
+				B7E4206DF47B47F8C4306A94A111E163 /* Pods-SFCloudMusicMediatorKit_Example-acknowledgements.plist */,
+				39D4F6C08BD7F67F9E3B1AD6EC26D42B /* Pods-SFCloudMusicMediatorKit_Example-dummy.m */,
+				61744336B122AA035E1BFFC48938F3F6 /* Pods-SFCloudMusicMediatorKit_Example-frameworks.sh */,
+				2CBA7E7F23EF6355C22EA48DA6DC7950 /* Pods-SFCloudMusicMediatorKit_Example-Info.plist */,
+				DBC53F3D076F45014E3DFF6391FDD3A8 /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h */,
+				327301A64D738E75C7D2E4EC928E972C /* Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig */,
+				4B93512C85EFC91F0200BFCE502AB8CC /* Pods-SFCloudMusicMediatorKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SFCloudMusicMediatorKit_Example";
+			path = "Target Support Files/Pods-SFCloudMusicMediatorKit_Example";
+			sourceTree = "<group>";
+		};
+		3B584C316D0CCBA0AC7C61DDA90CDB7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA48562D2680A3823B37E2D6B977504 /* SFCloudMusicMediatorKit.modulemap */,
+				BF7892FF75337070286222A4A13F31DD /* SFCloudMusicMediatorKit.xcconfig */,
+				A3CF371A631149353107FEDADC75052B /* SFCloudMusicMediatorKit-dummy.m */,
+				02172F3F436B0D804AE219255FD1BD45 /* SFCloudMusicMediatorKit-Info.plist */,
+				3B5BFE3AEA84C1A065E061624625B7A5 /* SFCloudMusicMediatorKit-prefix.pch */,
+				01EF3CC9B542CA3AEA57617867B001B2 /* SFCloudMusicMediatorKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SFCloudMusicMediatorKit";
+			sourceTree = "<group>";
+		};
+		44333ADEBDB7606F0080416061FD2305 /* Pods-SFCloudMusicMediatorKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B576B0D5D98689FA933C68C395B4E6B /* Pods-SFCloudMusicMediatorKit_Tests.modulemap */,
+				E543A88897C4A991CE12094810B52C91 /* Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.markdown */,
+				F2E93A01A6248021BE260CB87E554390 /* Pods-SFCloudMusicMediatorKit_Tests-acknowledgements.plist */,
+				1A156574E100166B1A90986288B78084 /* Pods-SFCloudMusicMediatorKit_Tests-dummy.m */,
+				959372A0B76CF47742F879A93EDA3979 /* Pods-SFCloudMusicMediatorKit_Tests-Info.plist */,
+				05EE5EAD693DBE4D21AEC3A6B6D7E0BE /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h */,
+				D3968549E15643BCAA748A4F54F0205E /* Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig */,
+				77E0B5977C15C0F5F7E1F3B6A641B8FF /* Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SFCloudMusicMediatorKit_Tests";
+			path = "Target Support Files/Pods-SFCloudMusicMediatorKit_Tests";
+			sourceTree = "<group>";
+		};
+		49036D3CE6DF9032343FA20F7A8F9CD2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BE37658EF2C6F9778A3C84B7F0C7B /* Pods-SFCloudMusicMediatorKit_Example */,
+				44333ADEBDB7606F0080416061FD2305 /* Pods-SFCloudMusicMediatorKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		545E4CCB3FE298BEF57E0F03279A729C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDA34899A2CA2504BAA46DD0B965A81D /* SFCloudMusicMediatorKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		577BA98C8FEB6266C1026EA330D7455C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				966AEC6CAFC5CAF825EEAD8B03841EC0 /* LICENSE */,
+				2FE3B34A8E7BFF0886A15820ECDD0782 /* README.md */,
+				FEA301A172741F484BDB7FBE06402F76 /* SFCloudMusicMediatorKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6E63DF596DED593A4ECE8C8B6B85E41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F33FFBCF9C48E172550E311BCDE9C2CC /* Pods_SFCloudMusicMediatorKit_Example.framework */,
+				CE476A7AFEE331132402F0BDBCBACF23 /* Pods_SFCloudMusicMediatorKit_Tests.framework */,
+				410E9A46DE16C6F7E299B9CE9EA2AD88 /* SFCloudMusicMediatorKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				545E4CCB3FE298BEF57E0F03279A729C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6E63DF596DED593A4ECE8C8B6B85E41B /* Products */,
+				49036D3CE6DF9032343FA20F7A8F9CD2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA34899A2CA2504BAA46DD0B965A81D /* SFCloudMusicMediatorKit */ = {
+			isa = PBXGroup;
+			children = (
+				5264FF9438F688F2E08E1BB77A2AD98D /* ReplaceMe.swift */,
+				577BA98C8FEB6266C1026EA330D7455C /* Pod */,
+				3B584C316D0CCBA0AC7C61DDA90CDB7D /* Support Files */,
+			);
+			name = SFCloudMusicMediatorKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A9F5785D06B21B72F522BEB7D6D88B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5101A5B8288B81507781E2588F325AFE /* SFCloudMusicMediatorKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A02E9C42DADFE2338E1271329DF8441 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4FD45791006274303E922ED6F7E99 /* Pods-SFCloudMusicMediatorKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A64756CA6730D52B2477419287AE38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679EF405A97457627D47CE033C035B5C /* Pods-SFCloudMusicMediatorKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A77805C1DC42E1A67242E4DA6B84ACA /* SFCloudMusicMediatorKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9E7D502EDF21DE91E9D368F7B38261 /* Build configuration list for PBXNativeTarget "SFCloudMusicMediatorKit" */;
+			buildPhases = (
+				1A9F5785D06B21B72F522BEB7D6D88B2 /* Headers */,
+				A091BD0B3CCF181D19FB0291ED133649 /* Sources */,
+				76A5F51F4E9A4C4F061F0EE434147C9F /* Frameworks */,
+				6D966D114E4890D2E66E407C05B50FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFCloudMusicMediatorKit;
+			productName = SFCloudMusicMediatorKit;
+			productReference = 410E9A46DE16C6F7E299B9CE9EA2AD88 /* SFCloudMusicMediatorKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7454B25C27BEE4A2D74356F2B609AB41 /* Pods-SFCloudMusicMediatorKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3DB60414052FB39809B848430C6DB8 /* Build configuration list for PBXNativeTarget "Pods-SFCloudMusicMediatorKit_Example" */;
+			buildPhases = (
+				2A02E9C42DADFE2338E1271329DF8441 /* Headers */,
+				C244846E5F41A2A76FF0D825038EAABD /* Sources */,
+				C4D31E2A49EF9CFA574D807BAFAAAE21 /* Frameworks */,
+				A57AA386DDFA58EFCAABDFF984850072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCBD32BEAADF51AF23CCC9A0D309B333 /* PBXTargetDependency */,
+			);
+			name = "Pods-SFCloudMusicMediatorKit_Example";
+			productName = "Pods-SFCloudMusicMediatorKit_Example";
+			productReference = F33FFBCF9C48E172550E311BCDE9C2CC /* Pods_SFCloudMusicMediatorKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7692F9C47569E4F6636586FFDBACE82 /* Pods-SFCloudMusicMediatorKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DB8DFBD130B5CB7DC05450C2C52A80 /* Build configuration list for PBXNativeTarget "Pods-SFCloudMusicMediatorKit_Tests" */;
+			buildPhases = (
+				58A64756CA6730D52B2477419287AE38 /* Headers */,
+				3E6849061740ACB40B0CBF243D7308ED /* Sources */,
+				94AE197FF506E157A399BF353965DA09 /* Frameworks */,
+				9982B93473350021597250CB2C2FC608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FBBF0E6B0CB113CFDE0F69ACDB8C181 /* PBXTargetDependency */,
+			);
+			name = "Pods-SFCloudMusicMediatorKit_Tests";
+			productName = "Pods-SFCloudMusicMediatorKit_Tests";
+			productReference = CE476A7AFEE331132402F0BDBCBACF23 /* Pods_SFCloudMusicMediatorKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6E63DF596DED593A4ECE8C8B6B85E41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7454B25C27BEE4A2D74356F2B609AB41 /* Pods-SFCloudMusicMediatorKit_Example */,
+				B7692F9C47569E4F6636586FFDBACE82 /* Pods-SFCloudMusicMediatorKit_Tests */,
+				6A77805C1DC42E1A67242E4DA6B84ACA /* SFCloudMusicMediatorKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D966D114E4890D2E66E407C05B50FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9982B93473350021597250CB2C2FC608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57AA386DDFA58EFCAABDFF984850072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E6849061740ACB40B0CBF243D7308ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47976AF80B133A746005AABFBC753233 /* Pods-SFCloudMusicMediatorKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A091BD0B3CCF181D19FB0291ED133649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E45C13B056CAD10325D26B41B693F8 /* ReplaceMe.swift in Sources */,
+				2830080C1D11A6BB813FF89AD4DACF3E /* SFCloudMusicMediatorKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C244846E5F41A2A76FF0D825038EAABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5414134CD6286DB21A1E924FFADE5F6C /* Pods-SFCloudMusicMediatorKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FBBF0E6B0CB113CFDE0F69ACDB8C181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SFCloudMusicMediatorKit_Example";
+			target = 7454B25C27BEE4A2D74356F2B609AB41 /* Pods-SFCloudMusicMediatorKit_Example */;
+			targetProxy = D1F50A934CEFDD4D3AC8B5A9C197372C /* PBXContainerItemProxy */;
+		};
+		BCBD32BEAADF51AF23CCC9A0D309B333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SFCloudMusicMediatorKit;
+			target = 6A77805C1DC42E1A67242E4DA6B84ACA /* SFCloudMusicMediatorKit */;
+			targetProxy = 260BCF6E037B46920D6FA31319959D11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F29DC07DD380F42AD6758E82CF15C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7892FF75337070286222A4A13F31DD /* SFCloudMusicMediatorKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.modulemap";
+				PRODUCT_MODULE_NAME = SFCloudMusicMediatorKit;
+				PRODUCT_NAME = SFCloudMusicMediatorKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5419F8F322412DC700A91D5A33518131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7892FF75337070286222A4A13F31DD /* SFCloudMusicMediatorKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.modulemap";
+				PRODUCT_MODULE_NAME = SFCloudMusicMediatorKit;
+				PRODUCT_NAME = SFCloudMusicMediatorKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DD16783CE1CB003BE85A649A2501A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327301A64D738E75C7D2E4EC928E972C /* Pods-SFCloudMusicMediatorKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Example/Pods-SFCloudMusicMediatorKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Example/Pods-SFCloudMusicMediatorKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C390C8484233E0CEA937C2EFABED0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B93512C85EFC91F0200BFCE502AB8CC /* Pods-SFCloudMusicMediatorKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Example/Pods-SFCloudMusicMediatorKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Example/Pods-SFCloudMusicMediatorKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F63F70050300A20A9F0A47588693CD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3968549E15643BCAA748A4F54F0205E /* Pods-SFCloudMusicMediatorKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Tests/Pods-SFCloudMusicMediatorKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Tests/Pods-SFCloudMusicMediatorKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEEE8EF45B1863BA6523B057A109689F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E0B5977C15C0F5F7E1F3B6A641B8FF /* Pods-SFCloudMusicMediatorKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Tests/Pods-SFCloudMusicMediatorKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SFCloudMusicMediatorKit_Tests/Pods-SFCloudMusicMediatorKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9E7D502EDF21DE91E9D368F7B38261 /* Build configuration list for PBXNativeTarget "SFCloudMusicMediatorKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F29DC07DD380F42AD6758E82CF15C18 /* Debug */,
+				5419F8F322412DC700A91D5A33518131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DB8DFBD130B5CB7DC05450C2C52A80 /* Build configuration list for PBXNativeTarget "Pods-SFCloudMusicMediatorKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63F70050300A20A9F0A47588693CD4E /* Debug */,
+				FEEE8EF45B1863BA6523B057A109689F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3DB60414052FB39809B848430C6DB8 /* Build configuration list for PBXNativeTarget "Pods-SFCloudMusicMediatorKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD16783CE1CB003BE85A649A2501A9D /* Debug */,
+				8C390C8484233E0CEA937C2EFABED0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
