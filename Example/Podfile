@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SFCloudMusicMediatorKit_Example' do
+  pod 'SFCloudMusicMediatorKit', :path => '../'
+
+  target 'SFCloudMusicMediatorKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
