@@ -31,21 +31,7 @@ A short description of SFCloudMusicMediatorKit.
   s.swift_version = '5.0'
   s.ios.deployment_target = '8.0'
 
-#  s.source_files = 'SFCloudMusicMediatorKit/Classes/**/*'
-
-s.subspec 'Coordinators' do |c|
-    c.source_files = 'SFCloudMusicMediatorKit/Classes/Coordinators/**/*'
-    c.dependency 'CTMediator'
-    c.dependency 'XCoordinator'
-    c.dependency 'XCoordinator/RxSwift'
-    c.dependency 'RxSwift', '~> 5'
-end
-
-s.subspec 'Mediator' do |m|
-     m.source_files = 'SFCloudMusicMediatorKit/Classes/Mediator/**/*'
-     m.dependency 'CTMediator'
-end
-
+  s.source_files = 'SFCloudMusicMediatorKit/Classes/**/*'
 
   
   # s.resource_bundles = {
@@ -54,4 +40,8 @@ end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'CTMediator'
+   s.dependency 'XCoordinator'
+   s.dependency 'XCoordinator/RxSwift'
+   s.dependency 'RxSwift', '~> 5'
 end
