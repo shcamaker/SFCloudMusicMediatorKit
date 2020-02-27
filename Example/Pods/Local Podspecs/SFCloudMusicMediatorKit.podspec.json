@@ -1,6 +1,6 @@
 {
   "name": "SFCloudMusicMediatorKit",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "SFCloudMusicMediatorKit.",
   "description": "A short description of SFCloudMusicMediatorKit.",
   "homepage": "https://github.com/shcamaker/SFCloudMusicMediatorKit",
@@ -13,26 +13,40 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicMediatorKit.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "swift_versions": "5.0",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SFCloudMusicMediatorKit/Classes/**/*",
-  "dependencies": {
-    "CTMediator": [
+  "subspecs": [
+    {
+      "name": "Coordinators",
+      "source_files": "SFCloudMusicMediatorKit/Classes/Coordinators/**/*",
+      "dependencies": {
+        "CTMediator": [
 
-    ],
-    "XCoordinator": [
+        ],
+        "XCoordinator": [
 
-    ],
-    "XCoordinator/RxSwift": [
+        ],
+        "XCoordinator/RxSwift": [
 
-    ],
-    "RxSwift": [
-      "~> 5"
-    ]
-  },
+        ],
+        "RxSwift": [
+          "~> 5"
+        ]
+      }
+    },
+    {
+      "name": "Mediator",
+      "source_files": "SFCloudMusicMediatorKit/Classes/Mediator/**/*",
+      "dependencies": {
+        "CTMediator": [
+
+        ]
+      }
+    }
+  ],
   "swift_version": "5.0"
 }
